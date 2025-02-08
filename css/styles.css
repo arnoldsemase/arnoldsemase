@@ -24,7 +24,11 @@ body {
 * {
     box-sizing: border-box;
 }
-
+.statement {
+    color: #e0e0e0; /* Light grey for better readability */
+    /* or */
+    /* Slightly transparent white */
+}
 header {
     background: #2c2c2c;
     padding: 1rem;
