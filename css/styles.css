@@ -263,13 +263,13 @@ nav ul li a.active {
         
     color: #fff;
     height: 100vh;
-    min-height: 600px; 
+    min-height: 300px; 
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
     position: relative;
-    padding-top: 5px;
+    padding-top: 0;
     overflow: hidden;
     font-family: var(--body-font);
 }
