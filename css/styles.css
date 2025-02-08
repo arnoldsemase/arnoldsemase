@@ -23,7 +23,7 @@ body {
 * {
     box-sizing: border-box;
 }
-/*
+
 header {
     background: green;
     padding: 1rem;
@@ -34,7 +34,7 @@ header {
     z-index: 999;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
-*/
+
 
 .header {
     min-height: 100vh;
@@ -42,7 +42,7 @@ header {
     position: relative;
     overflow: hidden; /* Important to contain the circles */
 }
-
+*/
 /* Left Circle */
 .circle-left {
     position: absolute;
