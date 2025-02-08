@@ -105,6 +105,7 @@ top: 1rem;
 z-index: 2000; 
 }
 
+	/*
 nav {
 display: none;
 flex-direction: column;
@@ -120,6 +121,47 @@ justify-content: center;
 transition: opacity 0.3s ease, visibility 0.3s ease;
 opacity: 0;
 visibility: hidden;
+}
+*/
+/* Navbar Base */
+.navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    background: rgba(26, 26, 26, 0.95);
+    height: 80px;
+    border-bottom: 1px solid rgba(255, 75, 110, 0.1);
+    overflow: hidden; /* To contain the half circles */
+}
+
+/* Left Half Circle */
+.navbar::before {
+    content: '';
+    position: absolute;
+    left: -50px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100px;
+    height: 100px;
+    background: linear-gradient(45deg, #ff4b6e20, #ff8f8f20);
+    border-radius: 50%;
+    filter: blur(2px);
+}
+
+/* Right Half Circle */
+.navbar::after {
+    content: '';
+    position: absolute;
+    right: -50px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 100px;
+    height: 100px;
+    background: linear-gradient(45deg, #ff4b6e20, #ff8f8f20);
+    border-radius: 50%;
+    filter: blur(2px);
 }
 
 /* Diamond Pattern Background - Behind the half circles */
@@ -139,6 +181,7 @@ visibility: hidden;
     opacity: 0.5;
     z-index: -1;
 }
+
 
 
 nav.show {
