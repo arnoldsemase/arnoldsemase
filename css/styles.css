@@ -118,7 +118,7 @@ top: 0;
 left: 0;
 width: 100%;
 height: 100%;
-background-color: rgba(0, 0, 0, 0.95);
+background: rgba(26, 26, 26, 0.95); /* Matches your dark background */
 z-index: 1500; 
 align-items: center;
 justify-content: center;
