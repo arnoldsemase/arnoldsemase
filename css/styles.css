@@ -122,29 +122,7 @@ opacity: 0;
 visibility: hidden;
 }
 	
-/* Subtle Version */
-.navbar::before,
-.navbar::after {
-    content: '';
-    position: absolute;
-    width: 60px;
-    height: 60px;
-    background: linear-gradient(45deg, #ff4b6e15, #ff8f8f15);
-    border-radius: 50%;
-    filter: blur(3px);
-}
 
-.navbar::before {
-    left: -30px;
-    top: 50%;
-    transform: translateY(-50%);
-}
-
-.navbar::after {
-    right: -30px;
-    top: 50%;
-    transform: translateY(-50%);
-}
 nav.show {
 display: flex;
 opacity: 1;
