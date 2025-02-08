@@ -27,7 +27,7 @@ body {
 header {
     background: #1a1a1a;
     padding: 1rem;
-    position: fixed;
+    position: relative;
     width: 100%;
     top: 0;
     left: 0;
@@ -36,14 +36,7 @@ header {
     overflow: hidden;
 }
 
-/*
-.header {
-    min-height: 100vh;
-    background-color: #1a1a1a;
-    position: relative;
-    overflow: hidden; /* Important to contain the circles 
-}
-*/
+
 /* Left Circle */
 .circle-left {
     position: absolute;
@@ -72,13 +65,7 @@ header {
     z-index: 1;
 }
 
-/* Ensure your content stays above the circles 
-.hero-container {
-    position: relative;
-    z-index: 2;
-     Your existing hero-container styles 
-}
-*/
+
 .header-container {
 display: flex;
 justify-content: center;
@@ -86,6 +73,7 @@ align-items: center;
 max-width: 1200px;
 margin: 0 auto;
 padding: 0 1rem;
+z-index: 2;
 position: relative;
 
 }
