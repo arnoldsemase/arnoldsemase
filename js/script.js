@@ -132,7 +132,35 @@ window.addEventListener('scroll', () => {
   typeEffect();
 
 
+// Create dynamic floating shapes
+function createFloatingShapes() {
+    const shapes = document.querySelector('.floating-shapes');
+    for(let i = 0; i < 5; i++) {
+        const shape = document.createElement('div');
+        shape.className = 'shape';
+        shape.style.left = `${Math.random() * 100}%`;
+        shape.style.top = `${Math.random() * 100}%`;
+        shape.style.width = `${50 + Math.random() * 100}px`;
+        shape.style.height = shape.style.width;
+        shape.style.animationDelay = `${Math.random() * 20}s`;
+        shapes.appendChild(shape);
+    }
+}
 
+// Optional: Mouse movement parallax effect
+document.addEventListener('mousemove', (e) => {
+    const shapes = document.querySelectorAll('.shape');
+    const mouseX = e.clientX / window.innerWidth;
+    const mouseY = e.clientY / window.innerHeight;
+
+    shapes.forEach(shape => {
+        const shapeX = (mouseX - 0.5) * 20;
+        const shapeY = (mouseY - 0.5) * 20;
+        shape.style.transform = `translate(${shapeX}px, ${shapeY}px)`;
+    });
+});
+
+createFloatingShapes();
 
 
 
