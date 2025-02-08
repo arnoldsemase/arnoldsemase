@@ -1,3 +1,13 @@
+/* Import additional Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap');
+
+/* Typography Base Styles */
+:root {
+    --heading-font: 'Space Grotesk', sans-serif;
+    --body-font: 'Poppins', sans-serif;
+    --accent-font: 'Playfair Display', serif;
+}
+
 html {
     scroll-behavior: smooth;
 }
@@ -208,6 +218,7 @@ nav ul li a.active {
     position: relative;
     background: #2c2c2c;
     overflow: hidden;
+    font-family: var(--body-font);
 }
 
 /* Animated Gradient Background */
@@ -343,19 +354,164 @@ nav ul li a.active {
     border: 1px solid rgba(255, 255, 255, 0.2);
     box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
 }
-Add this 
-.hero .statement {
-    font-size: 1.5rem;
+
+/* Main Heading */
+.hero-content h1 {
+    font-family: var(--heading-font);
+    font-size: clamp(2.5rem, 5vw, 4.5rem);
+    font-weight: 700;
+    letter-spacing: -0.02em;
+    line-height: 1.2;
     margin-bottom: 1.5rem;
+    background: linear-gradient(45deg, #fff, #ff4c60);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: gradientText 6s ease infinite;
+}
+/* Subheading/Statement */
+.hero-content .statement {
+    font-family: var(--accent-font);
+    font-size: clamp(1.25rem, 2.5vw, 2rem);
+    font-weight: 400;
+    line-height: 1.6;
+    color: rgba(255, 255, 255, 0.9);
+    margin-bottom: 2rem;
+    font-style: italic;
 }
 
-.hero .role {
-    font-size: 2.8rem;
-    font-weight: bold;
-    margin-top: 1rem;
-    color: #fff;
+
+/* Role Text */
+.hero-content .role {
+    font-family: var(--heading-font);
+    font-size: clamp(1.5rem, 3vw, 2.5rem);
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    color: #ff4c60;
+    margin-bottom: 2rem;
+    position: relative;
+    display: inline-block;
 }
 
+/* Role Text Decoration */
+.hero-content .role::after {
+    content: '';
+    position: absolute;
+    bottom: -10px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 80px;
+    height: 3px;
+    background: #ff4c60;
+    border-radius: 2px;
+}
+
+/* CTA Button */
+.hero-content .btn {
+    font-family: var(--body-font);
+    font-size: clamp(1rem, 1.5vw, 1.25rem);
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    padding: 1em 2.5em;
+    border-radius: 50px;
+    transition: all 0.3s ease;
+    position: relative;
+    overflow: hidden;
+}
+
+/* Animated Text Elements */
+.animated-text {
+    display: block;
+    font-family: var(--heading-font);
+    font-size: clamp(1rem, 2vw, 1.5rem);
+    color: rgba(255, 255, 255, 0.7);
+    margin-top: 2rem;
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeInUp 0.5s ease forwards;
+}
+
+.animated-text:nth-child(2) {
+    animation-delay: 0.2s;
+}
+
+.animated-text:nth-child(3) {
+    animation-delay: 0.4s;
+}
+
+/* Animations */
+@keyframes gradientText {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+@keyframes fadeInUp {
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Responsive Typography */
+@media (max-width: 768px) {
+    .hero-content {
+        padding: 0 1.5rem;
+    }
+
+    .hero-content h1 {
+        font-size: clamp(2rem, 4vw, 3rem);
+    }
+
+    .hero-content .statement {
+        font-size: clamp(1rem, 2vw, 1.5rem);
+    }
+
+    .hero-content .role {
+        font-size: clamp(1.25rem, 2.5vw, 2rem);
+    }
+
+    .animated-text {
+        font-size: clamp(0.875rem, 1.5vw, 1.25rem);
+    }
+}
+
+/* Additional Text Styles */
+.highlight-text {
+    position: relative;
+    display: inline-block;
+    color: #ff4c60;
+    font-weight: 600;
+}
+
+.highlight-text::before {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 30%;
+    background: rgba(255, 76, 96, 0.2);
+    z-index: -1;
+    transform: skewX(-15deg);
+}
+
+/* Glass Morphism Enhancement */
+.hero-content {
+    background: rgba(255, 255, 255, 0.05);
+    backdrop-filter: blur(10px);
+    padding: 3rem;
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+}
 .btn {
     background: #ff4c60;
     color: #fff;
