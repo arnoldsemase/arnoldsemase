@@ -579,7 +579,12 @@ nav ul li a.active {
         flex-direction: column;
         text-align: center;
     }
-	
+
+	.hero-container {
+        margin-top: -30px; /* Smaller offset for mobile */
+        /* or */
+        transform: translateY(-30px);
+	}
 	 .hero .role {
         font-size: 1.8rem; 
     }
