@@ -335,7 +335,7 @@ nav ul li a.active {
 }
 
 #heading {
-    color: #ff4c60;
+    color: green;
     font-size: 2rem;
     margin-bottom: 1rem;
     font-family: 'Pacifico', cursive;
@@ -369,7 +369,7 @@ nav ul li a.active {
     font-size: clamp(1.25rem, 2.5vw, 2rem);
     font-weight: 400;
     line-height: 1.6;
-    color: rgba(255, 255, 255, 0.9);
+    color: green;
     margin-bottom: 2rem;
     font-style: italic;
 }
@@ -382,7 +382,7 @@ nav ul li a.active {
     font-weight: 600;
     text-transform: uppercase;
     letter-spacing: 0.1em;
-    color: #ff4c60;
+    color: green;
     margin-bottom: 2rem;
     position: relative;
     display: inline-block;
