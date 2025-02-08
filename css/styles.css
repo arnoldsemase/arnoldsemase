@@ -37,33 +37,6 @@ header {
 }
 
 
-/* Left Circle */
-.circle-left {
-    position: absolute;
-    left: -150px; /* Adjust this value to position the circle */
-    top: 50%;
-    transform: translateY(-50%);
-    width: 300px;
-    height: 300px;
-    background: linear-gradient(45deg, rgba(255,75,110,0.1), rgba(255,143,143,0.1));
-    border-radius: 50%;
-    filter: blur(60px);
-    z-index: 1;
-}
-
-/* Right Circle */
-.circle-right {
-    position: absolute;
-    right: -150px; /* Adjust this value to position the circle */
-    top: 50%;
-    transform: translateY(-50%);
-    width: 300px;
-    height: 300px;
-    background: linear-gradient(45deg, rgba(255,75,110,0.1), rgba(255,143,143,0.1));
-    border-radius: 50%;
-    filter: blur(60px);
-    z-index: 1;
-}
 
 
 .header-container {
@@ -274,7 +247,7 @@ nav ul li a.active {
     font-family: var(--body-font);
 }
 
-/* Diamond Pattern Background */
+/* Diamond Pattern Background 
 .hero::before {
     content: '';
     position: absolute;
@@ -291,7 +264,7 @@ nav ul li a.active {
     background-position: 0 0, 0 10px, 10px -10px, -10px 0px;
     z-index: 1;
 }
-
+*/
 
 /* Red Gradient Overlay */
 .hero::after {
