@@ -24,11 +24,7 @@ body {
 * {
     box-sizing: border-box;
 }
-.statement {
-    color: #e0e0e0; /* Light grey for better readability */
-    /* or */
-    /* Slightly transparent white */
-}
+
 header {
     background: #2c2c2c;
     padding: 1rem;
@@ -373,7 +369,6 @@ nav ul li a.active {
     font-size: clamp(1.25rem, 2.5vw, 2rem);
     font-weight: 400;
     line-height: 1.6;
-    color: #fff !important;
     margin-bottom: 2rem;
     font-style: italic;
 }
@@ -390,6 +385,20 @@ nav ul li a.active {
     margin-bottom: 2rem;
     position: relative;
     display: inline-block;
+}
+
+.statement {
+   /* color: #e0e0e0; /* Light grey for better readability */
+    /* or */
+    color: rgba(255, 255, 255, 0.85); /* Slightly transparent white */
+}
+
+.role {
+    background: linear-gradient(45deg, #ff4b6e, #ff8f8f); /* Matching your theme's gradient */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    /* or */
+    color: #ff4b6e; /* Solid color matching your accent */
 }
 
 /* Role Text Decoration */
