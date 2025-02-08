@@ -221,42 +221,37 @@ nav ul li a.active {
     font-family: var(--body-font);
 }
 
-/* Animated Gradient Background */
+/* Diamond Pattern Background */
 .hero::before {
     content: '';
     position: absolute;
-    width: 200%;
-    height: 200%;
-    background: linear-gradient(
-        45deg,
-        #ff4c60 0%,
-        #2c2c2c 25%,
-        #383838 50%,
-        #2c2c2c 75%,
-        #ff4c60 100%
-    );
-    animation: gradientMove 15s ease-in-out infinite;
-    opacity: 0.5;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: 
+        linear-gradient(45deg, rgba(0,0,0,0.1) 25%, transparent 25%),
+        linear-gradient(-45deg, rgba(0,0,0,0.1) 25%, transparent 25%),
+        linear-gradient(45deg, transparent 75%, rgba(0,0,0,0.1) 75%),
+        linear-gradient(-45deg, transparent 75%, rgba(0,0,0,0.1) 75%);
+    background-size: 20px 20px;
+    background-position: 0 0, 0 10px, 10px -10px, -10px 0px;
+    z-index: 1;
 }
 
-/* Geometric Shapes Layer */
+
+/* Red Gradient Overlay */
 .hero::after {
     content: '';
     position: absolute;
     top: 0;
     left: 0;
-    width: 100%;
-    height: 100%;
-    background: 
-        radial-gradient(circle at 10% 20%, rgba(255, 76, 96, 0.3) 0%, transparent 20%),
-        radial-gradient(circle at 90% 80%, rgba(255, 76, 96, 0.3) 0%, transparent 20%),
-        linear-gradient(60deg, rgba(255, 255, 255, 0.1) 12%, transparent 12.5%, transparent 87%, rgba(255, 255, 255, 0.1) 87.5%, rgba(255, 255, 255, 0.1) 0),
-        linear-gradient(-60deg, rgba(255, 255, 255, 0.1) 12%, transparent 12.5%, transparent 87%, rgba(255, 255, 255, 0.1) 87.5%, rgba(255, 255, 255, 0.1) 0),
-        linear-gradient(60deg, rgba(255, 255, 255, 0.1) 12%, transparent 12.5%, transparent 87%, rgba(255, 255, 255, 0.1) 87.5%, rgba(255, 255, 255, 0.1) 0),
-        linear-gradient(-60deg, rgba(255, 255, 255, 0.1) 12%, transparent 12.5%, transparent 87%, rgba(255, 255, 255, 0.1) 87.5%, rgba(255, 255, 255, 0.1) 0);
-    background-size: 50% 50%, 50% 50%, 20px 20px, 20px 20px;
-    animation: patternMove 30s linear infinite;
+    right: 0;
+    bottom: 0;
+    background: radial-gradient(circle, rgba(255,75,110,0.1) 0%, rgba(26,26,26,0.2) 100%);
+    z-index: 2;
 }
+
 
 /* Floating Shapes */
 .floating-shapes {
