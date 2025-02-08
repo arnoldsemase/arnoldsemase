@@ -188,7 +188,7 @@ nav ul li a.active {
     letter-spacing: 2px;
 }
 
-/* Hero Section */
+/* Hero Section 
 .hero {
     background: linear-gradient(to right, #333, #444);
     color: #fff;
@@ -202,10 +202,130 @@ nav ul li a.active {
     padding-top: 100px;
     overflow: hidden;
 }
+*/
+.hero {
+    min-height: 100vh;
+    position: relative;
+    background: #2c2c2c;
+    overflow: hidden;
+}
+
+/* Animated Gradient Background */
+.hero::before {
+    content: '';
+    position: absolute;
+    width: 200%;
+    height: 200%;
+    background: linear-gradient(
+        45deg,
+        #ff4c60 0%,
+        #2c2c2c 25%,
+        #383838 50%,
+        #2c2c2c 75%,
+        #ff4c60 100%
+    );
+    animation: gradientMove 15s ease-in-out infinite;
+    opacity: 0.5;
+}
+
+/* Geometric Shapes Layer */
+.hero::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: 
+        radial-gradient(circle at 10% 20%, rgba(255, 76, 96, 0.3) 0%, transparent 20%),
+        radial-gradient(circle at 90% 80%, rgba(255, 76, 96, 0.3) 0%, transparent 20%),
+        linear-gradient(60deg, rgba(255, 255, 255, 0.1) 12%, transparent 12.5%, transparent 87%, rgba(255, 255, 255, 0.1) 87.5%, rgba(255, 255, 255, 0.1) 0),
+        linear-gradient(-60deg, rgba(255, 255, 255, 0.1) 12%, transparent 12.5%, transparent 87%, rgba(255, 255, 255, 0.1) 87.5%, rgba(255, 255, 255, 0.1) 0),
+        linear-gradient(60deg, rgba(255, 255, 255, 0.1) 12%, transparent 12.5%, transparent 87%, rgba(255, 255, 255, 0.1) 87.5%, rgba(255, 255, 255, 0.1) 0),
+        linear-gradient(-60deg, rgba(255, 255, 255, 0.1) 12%, transparent 12.5%, transparent 87%, rgba(255, 255, 255, 0.1) 87.5%, rgba(255, 255, 255, 0.1) 0);
+    background-size: 50% 50%, 50% 50%, 20px 20px, 20px 20px;
+    animation: patternMove 30s linear infinite;
+}
+
+/* Floating Shapes */
+.floating-shapes {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    pointer-events: none;
+}
+
+.shape {
+    position: absolute;
+    background: rgba(255, 76, 96, 0.1);
+    border-radius: 50%;
+    animation: float 20s linear infinite;
+}
+
+.shape:nth-child(1) {
+    width: 100px;
+    height: 100px;
+    top: 20%;
+    left: 10%;
+    animation-delay: 0s;
+}
+
+.shape:nth-child(2) {
+    width: 150px;
+    height: 150px;
+    top: 60%;
+    left: 80%;
+    animation-delay: -5s;
+}
+
+.shape:nth-child(3) {
+    width: 80px;
+    height: 80px;
+    top: 40%;
+    left: 50%;
+    animation-delay: -10s;
+}
+
+/* Content Container */
 .hero-container {
-    max-width: 800px;
+    position: relative;
+    z-index: 1;
+    max-width: 1200px;
     margin: 0 auto;
-    padding: 0 1rem;
+    padding: 0 20px;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+* Animations */
+@keyframes gradientMove {
+    0% { transform: translate(-50%, -50%) rotate(0deg); }
+    100% { transform: translate(-50%, -50%) rotate(360deg); }
+}
+
+@keyframes patternMove {
+    0% { background-position: 0 0, 0 0, 0 0, 0 0; }
+    100% { background-position: 500px 500px, -500px -500px, 0 0, 0 0; }
+}
+
+@keyframes float {
+    0% {
+        transform: translateY(0) rotate(0deg);
+        opacity: 0.8;
+    }
+    50% {
+        transform: translateY(-100px) rotate(180deg);
+        opacity: 0.4;
+    }
+    100% {
+        transform: translateY(0) rotate(360deg);
+        opacity: 0.8;
+    }
 }
 
 #heading {
@@ -214,7 +334,16 @@ nav ul li a.active {
     margin-bottom: 1rem;
     font-family: 'Pacifico', cursive;
 }
-
+/* Glass Morphism Effect */
+.hero-content {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(10px);
+    padding: 2rem;
+    border-radius: 20px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+}
+Add this 
 .hero .statement {
     font-size: 1.5rem;
     margin-bottom: 1.5rem;
