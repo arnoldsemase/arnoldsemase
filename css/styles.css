@@ -105,7 +105,7 @@ right: 1rem;
 top: 1rem;
 z-index: 2000; 
 }
-
+/*
 nav {
 display: none;
 flex-direction: column;
@@ -122,7 +122,16 @@ transition: opacity 0.3s ease, visibility 0.3s ease;
 opacity: 0;
 visibility: hidden;
 }
-
+	*/
+navbar {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    background: rgba(26, 26, 26, 0.95);
+    height: 80px; /* Fixed height for consistency */
+	}
 /* Add diamond pattern to navbar */
 .navbar::before {
     content: '';
