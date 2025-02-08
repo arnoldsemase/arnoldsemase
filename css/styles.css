@@ -54,11 +54,11 @@ align-items: center;
 margin-right: 20px; 
 }
 .logo img {
-    width: 50px;      
+width: 50px;      
 height: 50px;      
 border-radius: 50%; 
 object-fit: cover;  
-border: 2px solid #fff; 
+border: 2px solid #ff4c60; 
 animation: spin 1s linear forwards;
 }
 @keyframes spin {
