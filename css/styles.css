@@ -23,7 +23,7 @@ body {
 * {
     box-sizing: border-box;
 }
-
+/*
 header {
     background: green;
     padding: 1rem;
@@ -34,8 +34,50 @@ header {
     z-index: 999;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
 }
+*/
 
+.header {
+    min-height: 100vh;
+    background-color: #1a1a1a;
+    position: relative;
+    overflow: hidden; /* Important to contain the circles */
+}
 
+/* Left Circle */
+.circle-left {
+    position: absolute;
+    left: -150px; /* Adjust this value to position the circle */
+    top: 50%;
+    transform: translateY(-50%);
+    width: 300px;
+    height: 300px;
+    background: linear-gradient(45deg, rgba(255,75,110,0.1), rgba(255,143,143,0.1));
+    border-radius: 50%;
+    filter: blur(60px);
+    z-index: 1;
+}
+
+/* Right Circle */
+.circle-right {
+    position: absolute;
+    right: -150px; /* Adjust this value to position the circle */
+    top: 50%;
+    transform: translateY(-50%);
+    width: 300px;
+    height: 300px;
+    background: linear-gradient(45deg, rgba(255,75,110,0.1), rgba(255,143,143,0.1));
+    border-radius: 50%;
+    filter: blur(60px);
+    z-index: 1;
+}
+
+/* Ensure your content stays above the circles 
+.hero-container {
+    position: relative;
+    z-index: 2;
+     Your existing hero-container styles 
+}
+*/
 .header-container {
 display: flex;
 justify-content: center;
