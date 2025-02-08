@@ -260,9 +260,16 @@ nav ul li a.active {
 }
 */
 .hero {
-    min-height: 600px;
+        
+    color: #fff;
+    height: 100vh;
+    min-height: 600px; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
     position: relative;
-    background: #2c2c2c;
+    padding-top: 100px;
     overflow: hidden;
     font-family: var(--body-font);
 }
