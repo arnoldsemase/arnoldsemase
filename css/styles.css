@@ -269,7 +269,7 @@ nav ul li a.active {
     justify-content: center;
     text-align: center;
     position: relative;
-    padding-top: 50px;
+    padding-top: 5px;
     overflow: hidden;
     font-family: var(--body-font);
 }
