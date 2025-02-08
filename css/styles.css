@@ -260,7 +260,7 @@ nav ul li a.active {
 }
 */
 .hero {
-    min-height: 100vh;
+   /* min-height: 100vh;*/
     position: relative;
     background: #2c2c2c;
     overflow: hidden;
