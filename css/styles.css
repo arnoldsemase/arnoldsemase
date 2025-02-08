@@ -232,17 +232,18 @@ nav ul li a.active {
     overflow: hidden;
 }
 */
-.hero {
-        
+.hero {        
+    color: #fff;
+    background: linear-gradient(to right, #333, #444);
     color: #fff;
     height: 100vh;
-    min-height: 300px; 
+    min-height: 600px; 
     display: flex;
     align-items: center;
     justify-content: center;
     text-align: center;
     position: relative;
-    padding-top: 0;
+    padding-top: 100px;
     overflow: hidden;
     font-family: var(--body-font);
 }
