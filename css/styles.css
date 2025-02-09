@@ -957,10 +957,20 @@ height: 150px;
 font-size: 0.875rem;
 }
 
-/* Ensure grid layout adapts on mobile */
+/* Ensure grid layout adapts on mobile 
 .projects-grid {
 grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
 }
+*/
+ .projects-grid {
+        grid-template-columns: 1fr;
+        padding: 0 15px;
+        gap: 1.5rem;
+    }
+
+	 .project-image {
+        height: 180px;
+	 }
 
 .project-card.list-view {
 flex-direction: column;
