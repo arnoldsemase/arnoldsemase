@@ -321,7 +321,7 @@ nav ul li a.active {
     align-items: center;
     justify-content: center;
     flex-direction: column;
-    margin-top: -50px; /* Add this to move content up */
+    margin-top: 50px; /* Add this to move content up */
     /* or */
     transform: translateY(-50px); /* Alternative way to move content up */
 }
@@ -572,7 +572,7 @@ nav ul li a.active {
     }
 
 	.hero-container {
-        margin-top: -100px; /* Smaller offset for mobile */
+        margin-top: 30px; /* Smaller offset for mobile */
         /* or */
         transform: translateY(-30px);
 	}
