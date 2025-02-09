@@ -860,11 +860,22 @@ display: inline-block;
 }
 
 .project-card {
+	/*
 background: #fff;
 border-radius: 8px;
 overflow: hidden;
 box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 transition: transform 0.3s ease, box-shadow 0.3s ease;
+	*/
+
+	background: #ffffff;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    position: relative;
+    display: flex;
+    flex-direction: column;
 }
 
 .project-card:hover {
