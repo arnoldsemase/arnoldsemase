@@ -786,8 +786,9 @@ text-align: center;
 }
 
 .projects-container {
-max-width: 1200px;
+max-width: 1400px;
 margin: 0 auto;
+padding: 0 20px
 }
 
 .view-toggle {
@@ -841,7 +842,7 @@ text-align: center;
 	
 display: grid;
 grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-gap: 1.5rem;
+gap: 2rem;
 transition: all 0.3s ease;
 	
 
@@ -876,6 +877,8 @@ transition: transform 0.3s ease, box-shadow 0.3s ease;
     position: relative;
     display: flex;
     flex-direction: column;
+    min-width: 100%;
+
 }
 
 .project-card:hover {
