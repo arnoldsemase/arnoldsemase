@@ -129,21 +129,7 @@ opacity: 0;
 visibility: hidden;
 }
 
-/* Navbar Base 
-.navbar {
-    position: fixed;
-    top: 0;
-    left: 0;
-    right: 0;
-    z-index: 1000;
-    background: rgba(26, 26, 26, 0.95);
-    height: 80px;
-    border-bottom: 1px solid rgba(255, 75, 110, 0.1);
-    overflow: hidden; /* To contain the half circles */
-}
-
-*/
-
+	
 nav.show {
 display: flex;
 opacity: 1;
@@ -175,13 +161,13 @@ h1 {
 }
 
 
-
+/*
 nav {
     display: flex;
     justify-content: center;
     flex: 1;
 }
-
+*/
 nav ul {
     list-style: none;
     padding: 0;
