@@ -983,10 +983,11 @@ margin-bottom: 1rem;
 }
 
 
-/* Larger screens */
-    .projects-grid {
-        gap: 5px;
+.projects-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 15px;
     }
+
 
     .project-card {
         border-radius: 20px;
