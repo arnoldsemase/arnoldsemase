@@ -968,6 +968,16 @@ grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
         gap: 1.5rem;
     }
 
+	/*
+.projects-list {
+display: inline-block;
+}
+*/
+	.projects-list {
+	grid-template-columns: 1fr;
+        padding: 0 15px;
+        gap: 1.5rem;
+	}
 	 .project-image {
         height: 180px;
 	 }
