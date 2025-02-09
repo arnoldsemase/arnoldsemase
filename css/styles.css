@@ -960,7 +960,7 @@ font-size: 0.875rem;
 
 /* Ensure grid layout adapts on mobile */
 .projects-grid {
-grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
 }
 
 
