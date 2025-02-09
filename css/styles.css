@@ -922,14 +922,7 @@ background: #ff6677;
 
 /* List view styles */
 .project-card.list-view {
-	/*
-display: flex;
-align-items: center;
-margin: 1rem 0;
-*/
-	grid-template-columns: 1fr;
-        padding: 0 15px;
-        gap: 1.5rem;
+display: block;
 }
 
 .project-card.list-view img {
