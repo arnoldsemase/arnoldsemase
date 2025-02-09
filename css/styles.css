@@ -816,6 +816,19 @@ color: #fff;
     color:#fff;
 }
 
+/* Projects Section Title */
+.projects h3 {
+    font-family: 'Pacifico', cursive;
+    font-size: 2rem;
+    background: linear-gradient(45deg, #ff4b6e, #ff8f8f);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    margin-bottom: 3rem;
+    animation: fadeInUp 0.5s ease-out;
+}
+
+
  h2 {
 font-family: 'Pacifico', cursive;
 color: #ff4c60;
