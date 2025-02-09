@@ -819,7 +819,7 @@ color: #fff;
 /* Projects Section Title */
 .projects h3 {
     font-family: 'Pacifico', cursive;
-    font-size: 2rem;
+    font-size: 1rem;
     background: linear-gradient(45deg, #ff4b6e, #ff8f8f);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
@@ -869,11 +869,6 @@ object-fit: cover;
 
 .project-info {
 padding: 1rem;
-}
-
- h3 {
-margin: 0;
-color: #333;
 }
 
 .project-info p {
