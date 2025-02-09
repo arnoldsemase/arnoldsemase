@@ -985,7 +985,7 @@ margin-bottom: 1rem;
 
 /* Larger screens */
     .projects-grid {
-        gap: 80px;
+        gap: 5px;
     }
 
     .project-card {
