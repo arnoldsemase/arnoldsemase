@@ -786,9 +786,9 @@ text-align: center;
 }
 
 .projects-container {
-max-width: 1400px;
+max-width: 1200px;
 margin: 0 auto;
-padding: 0 20px
+padding: 0 15px
 }
 
 .view-toggle {
@@ -841,8 +841,11 @@ text-align: center;
 .projects-grid {
 	
 display: grid;
-grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
-gap: 2rem;
+/*grid-template-columns: repeat(auto-fit, minmax(400px, 1fr)); */
+grid-template-columns: repeat(2, 1fr); /* Always 2 columns */
+/*gap: 2rem; */
+gap: 15px; /* Reduced gap for mobile */
+margin: 0 auto;
 transition: all 0.3s ease;
 	
 
@@ -870,7 +873,7 @@ transition: transform 0.3s ease, box-shadow 0.3s ease;
 	*/
 
 	background: #ffffff;
-    border-radius: 20px;
+    border-radius: 15px;
     overflow: hidden;
     box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
     transition: all 0.3s ease;
@@ -980,12 +983,15 @@ margin-bottom: 1rem;
 }
 
 
-#project-card {
-/* backdrop-filter: blur(50px); */
-/* background-color: rgba(255, 255, 255, 0.2); */
-border: 1px solid rgba(255, 255, 255, 0.2);
-box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
-}
+/* Larger screens */
+    .projects-grid {
+        gap: 30px;
+    }
+
+    .project-card {
+        border-radius: 20px;
+    }
+
 
 .typewriter-container {
 font-size: 2em;
