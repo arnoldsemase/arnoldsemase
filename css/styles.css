@@ -850,10 +850,10 @@ display: inline-block;
 }
 
 
-.project-card:hover {
-  transform: scale(1.05); /* grows card a little */
-  box-shadow: 0 15px 40px rgba(255, 75, 110, 0.2);
-}
+.project-card:hover {  
+  transform: translateY(-10px);  
+  box-shadow: 0 15px 40px rgba(255, 75, 110, 0.2);  
+}  
 
 .project-card img {
   width: 100%;
@@ -1335,6 +1335,7 @@ margin: 10px 0;
         margin-top: 1rem;
     }
 }
+
 
 
 
