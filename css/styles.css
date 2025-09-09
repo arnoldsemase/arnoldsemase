@@ -842,6 +842,7 @@ color: #fff;
   display: flex;
   flex-direction: column;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
+  
 }
 
 .projects-list {
@@ -908,10 +909,9 @@ flex: 1;
 @media (max-width: 768px) {
   .projects-grid {
     grid-template-columns: 1fr;
+    gap: 30px; /* more vertical space between single-column cards */
   }
 }
-
-
 .toggle-btn {
 font-size: 0.9rem;
 padding: 0.4rem 0.8rem;
@@ -1335,6 +1335,7 @@ margin: 10px 0;
         margin-top: 1rem;
     }
 }
+
 
 
 
