@@ -185,10 +185,44 @@
 -->
 
     <script src="js/script.js"></script>
+<!-- Under Construction Overlay -->
+<div id="under-construction">
+  <div class="uc-box">
+    <h1>🚧 Website Under Construction 🚧</h1>
+    <p>I’m currently working on something awesome. Please check back soon!</p>
+  </div>
+</div>
 
+<style>
+  #under-construction {
+    position: fixed;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    background: #333;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 99999; /* makes sure it covers everything */
+    text-align: center;
+  }
+  .uc-box {
+    max-width: 600px;
+    padding: 2rem;
+  }
+  .uc-box h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  .uc-box p {
+    font-size: 1.2rem;
+    opacity: 0.8;
+  }
+	  </style>
 </body>
 
 </html>
+
 
 
 
