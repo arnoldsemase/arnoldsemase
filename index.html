@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>ClipSync Mobile Pro</title>
+<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;700&display=swap" rel="stylesheet">
+<style>
+body{
+font-family:'Plus Jakarta Sans',sans-serif;
+background:radial-gradient(circle at top,#111827,#05070b);
+min-height:100vh;
+padding-bottom:env(safe-area-inset-bottom);
+}
+.glass{
+backdrop-filter:blur(18px);
+background:rgba(15,23,42,.55);
+border:1px solid rgba(255,255,255,.08);
+}
+textarea,input{font-size:16px;}
+.custom-scroll::-webkit-scrollbar{width:6px}
+.custom-scroll::-webkit-scrollbar-thumb{background:#475569;border-radius:20px}
+@media(max-width:768px){
+.heavy-shadow{box-shadow:0 10px 30px rgba(0,0,0,.4)}
+}
+</style>
+</head>
+<body class="text-slate-200 overflow-x-hidden">
+
+<div class="fixed inset-0 -z-10">
+<div class="absolute top-0 left-1/4 w-72 h-72 bg-amber-500/10 blur-3xl rounded-full"></div>
+<div class="absolute bottom-0 right-1/4 w-72 h-72 bg-emerald-500/10 blur-3xl rounded-full"></div>
+</div>
+
+<header class="max-w-7xl mx-auto px-4 py-5 flex flex-col sm:flex-row gap-4 justify-between items-start sm:items-center">
+<div>
+<h1 class="text-2xl font-bold">ClipSync</h1>
+<p class="text-slate-400 text-sm">Mobile Optimized Secure Clipboard Sync</p>
+</div>
+<div class="glass rounded-xl px-4 py-2 text-xs font-mono">
+🟢 Mesh Node Active
+</div>
+</header>
+
+<main class="max-w-7xl mx-auto px-4 pb-28">
+<div class="grid grid-cols-1 xl:grid-cols-12 gap-6">
+
+<div class="xl:col-span-7 glass heavy-shadow rounded-3xl p-5">
+<div class="flex justify-between items-center mb-4">
+<h2 class="font-semibold">Deployment Input</h2>
+<input type="file" id="fileInput" class="text-xs">
+</div>
+
+<textarea id="textInput" rows="10" class="w-full bg-black/30 rounded-2xl p-4 outline-none custom-scroll" placeholder="Paste text here..."></textarea>
+
+<div class="flex justify-between text-xs text-slate-400 mt-2">
+<span id="meta">0 chars</span>
+<span id="entropy">Entropy 0.0</span>
+</div>
+
+<button onclick="dropText()" class="mt-5 w-full min-h-[60px] rounded-2xl bg-amber-600 hover:bg-amber-500 text-black font-bold">
+Broadcast Payload
+</button>
+
+<div id="codeDisplay" class="hidden mt-5 glass rounded-2xl p-4">
+<div class="text-xs text-slate-400">Generated Token</div>
+<div id="generatedCode" class="text-3xl font-bold tracking-[0.3em] mt-2"></div>
+</div>
+</div>
+
+<div class="xl:col-span-5 glass heavy-shadow rounded-3xl p-5">
+<h2 class="font-semibold mb-4">Receiver Extraction</h2>
+
+<input id="codeInput" maxlength="4" placeholder="••••" class="w-full py-5 text-center text-2xl tracking-[0.4em] rounded-2xl bg-black/30 border border-slate-700">
+
+<button onclick="fetchText()" class="mt-4 w-full min-h-[60px] rounded-2xl bg-emerald-600 hover:bg-emerald-500 text-black font-bold">
+Fetch Payload
+</button>
+
+<div id="resultDisplay" class="hidden mt-5">
+<div class="glass rounded-2xl overflow-hidden">
+<div class="p-3 border-b border-slate-700 flex justify-between">
+<span class="text-xs">Synchronized Buffer</span>
+<button onclick="copyToClipboard()">Copy</button>
+</div>
+<div id="fetchedText" class="p-4 text-sm max-h-[300px] overflow-y-auto custom-scroll"></div>
+</div>
+</div>
+</div>
+
+</div>
+</main>
+
+<div class="fixed bottom-4 left-4 right-4 sm:hidden">
+<div class="glass rounded-2xl p-3 flex gap-3">
+<button onclick="dropText()" class="flex-1 py-3 rounded-xl bg-amber-600 text-black font-bold">Broadcast</button>
+<button onclick="fetchText()" class="flex-1 py-3 rounded-xl bg-emerald-600 text-black font-bold">Fetch</button>
+</div>
+</div>
+
+<script>
+function updateStats(){
+const text=document.getElementById('textInput').value;
+document.getElementById('meta').textContent=text.length+' chars';
+}
+document.getElementById('textInput').addEventListener('input',updateStats);
+
+document.getElementById('fileInput').addEventListener('change',e=>{
+const f=e.target.files[0];
+if(!f)return;
+const r=new FileReader();
+r.onload=x=>document.getElementById('textInput').value=x.target.result;
+r.readAsText(f);
+});
+
+function token(){
+const chars='ABCDEFGHJKLMNPQRSTUVWXYZ23456789';
+let s='';
+for(let i=0;i<4;i++) s+=chars[Math.floor(Math.random()*chars.length)];
+return s;
+}
+
+function dropText(){
+const t=token();
+document.getElementById('generatedCode').textContent=t;
+document.getElementById('codeDisplay').classList.remove('hidden');
+localStorage.setItem('clipsync_'+t,document.getElementById('textInput').value);
+if(navigator.vibrate) navigator.vibrate(20);
+}
+
+function fetchText(){
+const code=document.getElementById('codeInput').value.toUpperCase();
+const txt=localStorage.getItem('clipsync_'+code) || 'No payload found for token: '+code;
+document.getElementById('fetchedText').textContent=txt;
+document.getElementById('resultDisplay').classList.remove('hidden');
+}
+
+function copyToClipboard(){
+navigator.clipboard.writeText(document.getElementById('fetchedText').textContent);
+}
+</script>
+
+</body>
+</html>
