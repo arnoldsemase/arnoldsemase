@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>ClipSync Pro Dashboard</title>
+<script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<style>
+body{font-family:'Plus Jakarta Sans',sans-serif;background:#07090e;}
+.glass{background:rgba(15,23,42,.55);backdrop-filter:blur(16px);border:1px solid rgba(255,255,255,.08);}
+</style>
+</head>
+<body class="text-slate-200 min-h-screen">
+<div class="max-w-7xl mx-auto p-4">
+
+<header class="glass rounded-3xl p-5 mb-6 flex flex-col md:flex-row justify-between gap-4">
+<div>
+<h1 class="text-3xl font-bold">ClipSync Pro</h1>
+<p class="text-slate-400">Secure Clipboard Synchronization Platform</p>
+</div>
+<div class="flex gap-3">
+<input placeholder="Search tokens..." class="bg-slate-900 rounded-xl px-4 py-2">
+<button class="bg-amber-600 px-4 py-2 rounded-xl">Search</button>
+</div>
+</header>
+
+<section class="glass rounded-3xl p-8 mb-6">
+<h2 class="text-4xl font-bold mb-2">Quantum Data Bridge</h2>
+<p class="text-slate-400">Securely share text, code snippets and payloads between devices.</p>
+</section>
+
+<section class="grid md:grid-cols-4 gap-4 mb-6">
+<div class="glass rounded-2xl p-5"><div class="text-slate-400">Transfers Today</div><div class="text-3xl font-bold">128</div></div>
+<div class="glass rounded-2xl p-5"><div class="text-slate-400">Active Sessions</div><div class="text-3xl font-bold">16</div></div>
+<div class="glass rounded-2xl p-5"><div class="text-slate-400">Payload Volume</div><div class="text-3xl font-bold">2.4 MB</div></div>
+<div class="glass rounded-2xl p-5"><div class="text-slate-400">Latency</div><div class="text-3xl font-bold">1.2 ms</div></div>
+</section>
+
+<section class="grid lg:grid-cols-2 gap-6 mb-6">
+<div class="glass rounded-3xl p-6">
+<h3 class="text-xl font-bold mb-4">Deployment Input</h3>
+<textarea class="w-full h-56 bg-slate-950 rounded-xl p-4"></textarea>
+<button class="mt-4 w-full bg-amber-600 rounded-xl py-3">Broadcast Payload</button>
+</div>
+
+<div class="glass rounded-3xl p-6">
+<h3 class="text-xl font-bold mb-4">Receiver Extraction</h3>
+<input class="w-full bg-slate-950 rounded-xl p-4 mb-4 text-center" placeholder="ABCD">
+<button class="w-full bg-emerald-600 rounded-xl py-3">Pull Memory Stream</button>
+<div class="bg-slate-950 rounded-xl p-4 mt-4 min-h-48">
+Received content appears here...
+</div>
+</div>
+</section>
+
+<section class="grid lg:grid-cols-3 gap-6 mb-6">
+<div class="glass rounded-3xl p-6">
+<h3 class="font-bold mb-4">Recent Activity</h3>
+<ul class="space-y-3 text-slate-400">
+<li>14:20 Token Created</li>
+<li>14:21 Payload Retrieved</li>
+<li>14:25 Clipboard Copied</li>
+<li>14:27 Session Expired</li>
+</ul>
+</div>
+
+<div class="glass rounded-3xl p-6">
+<h3 class="font-bold mb-4">Device Monitor</h3>
+<div id="deviceInfo" class="text-slate-400"></div>
+</div>
+
+<div class="glass rounded-3xl p-6">
+<h3 class="font-bold mb-4">Session Monitor</h3>
+<ul class="space-y-2">
+<li>Encryption: Active</li>
+<li>Storage: Available</li>
+<li>Clipboard: Connected</li>
+<li>API: Online</li>
+</ul>
+</div>
+</section>
+
+<section class="glass rounded-3xl p-6 mb-6">
+<h3 class="font-bold mb-4">Recent Transfers</h3>
+<div class="overflow-auto">
+<table class="w-full">
+<thead>
+<tr class="text-left border-b border-slate-800">
+<th class="p-3">Token</th>
+<th class="p-3">Created</th>
+<th class="p-3">Status</th>
+</tr>
+</thead>
+<tbody>
+<tr><td class="p-3">A4K2</td><td class="p-3">14:20</td><td class="p-3">Active</td></tr>
+<tr><td class="p-3">X8P1</td><td class="p-3">14:10</td><td class="p-3">Expired</td></tr>
+<tr><td class="p-3">M2R9</td><td class="p-3">13:55</td><td class="p-3">Retrieved</td></tr>
+</tbody>
+</table>
+</div>
+</section>
+
+<footer class="text-center text-slate-500 py-6">
+ClipSync Pro Dashboard • Single File Edition
+</footer>
+
+</div>
+
+<script>
+document.getElementById("deviceInfo").innerHTML = `
+<p>Platform: ${navigator.platform}</p>
+<p>Language: ${navigator.language}</p>
+<p>Online: ${navigator.onLine}</p>
+<p>User Agent: ${navigator.userAgent}</p>
+`;
+</script>
+</body>
+</html>
