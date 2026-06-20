@@ -202,7 +202,7 @@ const payload = {
   captcha: captchaResponse   
 };
 
-    const res = await fetch("https://script.google.com/macros/s/AKfycbzE9O3pMb6fDV956qad-oW64lY79-A8K-TFEivRVsLRJCQPpmFNm38eAp16rFV8NmMi1A/exec", {
+    const res = await fetch("https://script.google.com/macros/s/AKfycby_-IIDrjz0Ex0x6WgjfOfhdzyA1m_VSj9WtjAwOUFMULQViah6MBRIoGuirVZT6Fnh/exec", {
       method: "POST",
       body: JSON.stringify(payload)
     });
