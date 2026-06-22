@@ -134,8 +134,9 @@ document.addEventListener("DOMContentLoaded", function () {
   }
 });
 
+const contactBtn = document.getElementById("contactBtn");
 const aboutSection = document.getElementById("about");
-
+const contactSection = document.getElementById("contact");
 const contactModal = document.querySelector(".modal"); // make sure this matches your modal
 
 function isModalOpen() {
