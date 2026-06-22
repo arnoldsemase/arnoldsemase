@@ -120,9 +120,22 @@ window.addEventListener('click', (e) => {
 
 
 
-const contactBtn = document.getElementById("contactBtn");
+document.addEventListener("DOMContentLoaded", function () {
+  const contactBtn = document.getElementById("contactBtn");
+  const contactSection = document.getElementById("contact");
+
+  if (contactBtn && contactSection) {
+    contactBtn.addEventListener("click", function () {
+      contactSection.scrollIntoView({
+        behavior: "smooth",
+        block: "start"
+      });
+    });
+  }
+});
+
 const aboutSection = document.getElementById("about");
-const contactSection = document.getElementById("contact");
+
 const contactModal = document.querySelector(".modal"); // make sure this matches your modal
 
 function isModalOpen() {
