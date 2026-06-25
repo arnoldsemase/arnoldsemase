@@ -1,0 +1,565 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <!-- Meta tags -->
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <meta name="description" content="Portfolio for Arnold Semase | Full-Stack Developer." />
+  <meta property="og:site_name" content="Arnold Semase">
+
+  
+  <!-- Title -->
+  <title>Arnold Semase  Full-Stack Developer.</title>
+
+  <!-- Link rel -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&family=Space+Grotesk:wght@600;700&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="css/styles.css">
+  
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="" crossorigin="anonymous" />
+  
+  <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+  
+
+<!-- Favicon -->
+     <link rel="icon" href="images/arnoldsemase.ico" type="image/x-icon">
+     
+     
+     <!-- Open Graph -->
+<meta property="og:title" content="Arnold Semase - Full-Stack Developer">
+<meta property="og:description" content="Arnold Semase is a Full-Stack Developer specializing in Python, JavaScript, backend systems, APIs, automation, and modern web applications.">
+<meta property="og:image" content="https://arnoldsemase.dev/images/arnoldsemase.jpg">
+<meta property="og:url" content="https://arnoldsemase.pages.dev/">
+<meta property="og:type" content="website">
+
+<!-- Twitter -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Arnold Semase - Full-Stack Developer">
+<meta name="twitter:description" content="Arnold Semase is a Full-Stack Developer specializing in Python, JavaScript, backend systems, APIs, automation, and modern web applications.">
+<meta name="twitter:image" content="https://arnoldsemase.dev/images/arnoldsemase.jpg">
+
+  <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "url": "https://arnoldsemase.dev/",
+  "name": "Arnold Semase",
+  "alternateName": "arnoldsemase.dev"
+}
+</script>
+
+<script type="application/ld+json">
+{
+  "@context":"https://schema.org",
+  "@type":"Person",
+  "name":"Arnold Semase",
+  "jobTitle":"Full-Stack Developer",
+  "url":"https://arnoldsemase.dev/",
+  "image":"https://arnoldsemase.dev/images/arnoldsemase.jpg"
+}
+</script>
+  <style>
+
+  </style>
+</head>
+<body>
+
+  <!-- NAV -->
+  <header id="site-header" aria-label="Main header">
+    <div class="nav-inner">
+      <div class="brand" role="banner">
+        <div class="logo" aria-hidden="true">
+          <img src="https://arnoldsemase.dev/images/arnoldsemase.jpg" alt="Arnold Semase logo" />
+        </div>
+      </div>
+
+      <nav class="primary" aria-label="Primary navigation">
+        <a href="#hero" data-nav>Home</a>
+        <a href="#about" data-nav>About</a>
+        <a href="#tools" data-nav>Tools</a>
+        <a href="#projects" data-nav>Projects</a>
+         <a href="#services" data-nav>Services</a>
+        
+        <a href="#contact" data-nav>Contact</a>
+      </nav>
+
+      <div class="nav-actions" role="region" aria-label="Header actions">
+        
+
+        <button class="btn-hire" onclick="location.href='#contact'">Hire me</button>
+
+        <button class="hamburger" id="hamburger" aria-label="Open menu" aria-expanded="false">
+          <i class="fa-solid fa-bars" aria-hidden="true"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- Mobile panel (basic) -->
+  <aside class="mobile-panel" id="mobilePanel" aria-hidden="true" style="position:fixed; top:0; right:-100%; height:100vh; width:260px; background:var(--bg-dark); z-index:1300; box-shadow:-20px 0 40px rgba(0,0,0,0.6); padding:3rem 1.1rem; transition:right 320ms cubic-bezier(.2,.9,.25,1); border-left:1px solid var(--glass-border);">
+    <button class="close" id="mobileClose" aria-label="Close menu"     style="position:absolute; top:14px; right:14px; background:transparent; border:none; color:var(--muted); font-size:1.1rem"><i class="fa-solid fa-times"></i></button>
+    <nav aria-label="Mobile navigation" style="display:flex; flex-direction:column; gap:1rem; margin-top:20px;">
+      <a href="#hero" class="mobile-link">Home</a>
+            <a href="#about" class="mobile-link">About</a>
+                  <a href="#tools" class="mobile-link">Tools</a>
+      <a href="#projects" class="mobile-link">Projects</a>
+      <a href="#services" class="mobile-link">Services</a>
+
+      <a href="#contact" class="mobile-link">Contact</a>
+      <div style="margin-top:1.2rem"><a class="btn-hire" href="#contact" style="display:inline-block; text-decoration:none; text-align:center">Hire me</a></div>
+    </nav>
+  </aside>
+
+
+  <!-- HERO -->
+  <main>
+    <section id="hero" class="hero" aria-labelledby="hero-title">
+      <div class="glow g1" data-depth="0.22" aria-hidden="true"></div>
+      <div class="glow g2" data-depth="0.32" aria-hidden="true"></div>
+
+      <div class="hero-card" role="region" aria-label="Introduction">
+        <div class="typewriter" aria-hidden="false">Hello, I'm Arnold Semase</div>
+        <h1 id="hero-title">Crafting Modern web Systems</h1>
+          <p class="lead">I'm a Full-Stack Developer who enjoys building web applications, backend systems, and creating automation tools using Python and JavaScript.</p>
+ <p class="role">Full-Stack Developer</p>
+        <div class="cta-row" role="group" aria-label="Primary actions">
+          <a href="#projects" class="btn" title="View projects"><i class="fa-solid fa-code"></i>My projects</a>
+          <a href="#contact" class="btn secondary" title="Contact me"><i class="fa-solid fa-paper-plane"></i>Get in touch</a>
+        </div>
+      </div>
+
+      <div class="scroll-indicator" aria-hidden="true">
+        Scroll Down
+        <i class="fa-solid fa-angles-down" aria-hidden="true"></i>
+      </div>
+    </section>
+    
+    
+    
+    
+    <!-- ABOUT -->
+<section id="about" aria-labelledby="about-title">
+  <div class="container">
+
+    <h2 id="title" class="section-title">About Me</h2>
+    <p class="section-sub">My bio.</p>
+
+    <div class="cols" role="region" aria-label="About and quick contact">
+
+      <div class="card">
+        <div style="display:flex;gap:1rem;align-items:center">
+          <img src="https://arnoldsemase.dev/images/RBBM30_177.jpg" 
+            alt="Arnold Semase" 
+            width="80" height="80" 
+            style="border-radius:10%;background:#222; border: 0.01rem solid var(--accent);" />
+
+          <div>
+            <strong style="display:block;font-size:1.05rem">Arnold Semase</strong>
+            <span style="color:var(--muted);display:block;font-size:0.95rem;margin-top:0.2rem">Full-Stack Developer | Python & JavaScript | Backend Systems, APIs & Automation</span>
+          </div>
+        </div>
+
+        <p class="lead" style="margin-top:1rem;color:var(--muted)">
+I am a software developer specializing in developing  frontend and backend systems, web applications, APIs, and automation solutions, focusing on clean logic, reliability, and data-driven design. I hold a Diploma in Information Technology (with distinction) from Rosebank International.
+        </p>
+
+        <div style="margin-top:1rem">
+          <div style="font-weight:600;margin-bottom:0.6rem">Key Skills</div>
+
+          <div class="skills" aria-hidden="true">
+          <span class="skill">html</span>
+            <span class="skill">CSS</span>
+            <span class="skill">JavaScript</span>
+            <span class="skill">Python</span>
+             <span class="skill">Automated workflows </span>
+            <span class="skill">APIs & Integrations</span>
+            
+            
+          </div>
+        </div>
+      </div>
+
+      <!-- EDUCATION CARD -->
+      <aside class="card edu-card" id="education" aria-labelledby="education-title">
+        <h3 id="education-title" class="card-title">Education</h3>
+        <p class="card-sub">A quick overview of my academic journey.</p>
+
+        <div class="edu-item">
+          <div class="edu-logo">
+            <img src="https://arnoldsemase.dev/images/RIUC-logo.png" alt="Rosebank International">
+          </div>
+          <div>
+            <h4>Rosebank International</h4>
+            <p class="meta">Dip. in IT in Software Development  •  completed</p>
+          </div>
+        </div>
+
+        <div class="edu-item">
+          <div class="edu-logo">
+            <img src="https://arnoldsemase.dev/images/uopeople.png" alt="University of the People">
+          </div>
+          <div>
+            <h4>University of the People</h4>
+            <p class="meta">Bsc in Computer Science  • In progress</p>
+          </div>
+        </div>
+
+        <div class="edu-item">
+          <div class="edu-logo">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT77bIn0rWzJLE_sDaiQykU4Y1JA5KbUrW9Ky-XVeaDvY1He-kJRpSIP2g&s=10" alt="Certificate Icon">
+          </div>
+          <div>
+            <h4>Certifications</h4>
+            <p class="meta">Google Cloud • In progress</p>
+          </div>
+        </div>
+
+      </aside>
+
+    </div> <!-- end cols -->
+
+  </div> <!-- end container -->
+</section>  
+  
+  
+  
+   <!-- Tools -->
+<section id="tools">
+  <div class="container">
+
+    <h2 id="title" class="section-title">My tools</h2>
+    <p class="section-sub">Tools I use.</p>
+
+    <div class="card">
+      <div class="tools-grid">
+
+        <!-- Google Apps Script -->
+        <div class="tool-item">
+          <img src="https://www.gstatic.com/images/branding/product/1x/apps_script_48dp.png" alt="Google Apps Script">
+          <span>GAS</span>
+        </div>
+
+        <!-- HTML5 -->
+        <div class="tool-item">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML5">
+          <span>HTML5</span>
+        </div>
+
+        <!-- CSS3 -->
+        <div class="tool-item">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS3">
+          <span>CSS3</span>
+        </div>
+
+        <!-- JavaScript -->
+        <div class="tool-item">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript">
+          <span>JavaScript</span>
+        </div>
+
+        <!-- Node.js -->
+        <div class="tool-item">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="Node.js">
+          <span>Node.js</span>
+        </div>
+
+        <!-- Python -->
+        <div class="tool-item">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python">
+          <span>Python</span>
+        </div>
+
+        <!-- Git -->
+        <div class="tool-item">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git">
+          <span>Git</span>
+        </div>
+
+        <!-- GitHub -->
+        <div class="tool-item">
+          <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" alt="GitHub">
+          <span>GitHub</span>
+        </div>
+
+      </div>
+    </div>
+
+  </div>
+</section>
+
+  
+  
+ 
+   
+
+ <!-- Projects -->
+<section id="projects" aria-labelledby="projects-title">
+  <div class="container">
+
+    <h2 id="title" class="section-title">My Projects</h2>
+    <p class="section-sub">Projects I’ve built.</p>
+
+    <div class="projects-grid">
+
+      <!-- Project 1 -->
+      <div class="project-card">
+        <img src="https://arnoldsemase.dev/images/p1.jpg" alt="Contact Form">
+
+        <div class="project-info">
+          <h3>A temporary text and code sharing web app</h3>
+
+          <div class="tags">
+            <span class="tag">HTML5</span>
+            <span class="tag">CSS3</span>
+            <span class="tag">JavaScript</span>
+            <span class="tag">Node.js</span>
+          </div>
+
+          <p class="lead">        
+            Paste text, load a file, or send clipboard content to another device. Sessions expire automatically after 5 minutes, with optional browser-side encryption.
+
+          </p>
+
+          <a href="https://pastenet.tech" class="btn-secondary">Try it yourself!</a>
+          
+        </div>
+      </div>
+
+      <!-- Project 2 -->
+      <!--
+      <div class="project-card">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfPHyQKvNkImpTbpS-qu1C6zeyctN6H_dpDBlzwKlzKg&s=10" alt="Contact Form">
+
+        <div class="project-info">
+          <h3>Lead Generation + CRM</h3>
+
+          <div class="tags">
+            <span class="tag">HTML5</span>
+            <span class="tag">CSS3</span>
+            <span class="tag">JavaScript</span>
+            <span class="tag">API</span>
+          </div>
+
+          <p class="lead">
+            Developed Live Contact Form (Interactive & Automated). Visitor fills a form,
+            they get personalized instant response (auto-reply) + PDF email confirmation
+            attached and submission is stored automatically.
+          </p>
+
+          <a href="#" class="btn-secondary">Try it yourself!</a>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+  -->
+</section>
+
+
+
+<!-- Services -->
+<section id="services" aria-labelledby="services-title">
+  <div class="container">
+
+    <h2 id="title" class="section-title">My Services</h2>
+    <p class="section-sub">Services I Offer.</p>
+
+    <div class="services">
+
+      <div class="services-card">
+        <img src="https://arnoldsemase.dev/images/cwd.png" alt="Automation Services" />
+        <h4>Custom Web Development</h4>
+
+        <p class="lead">
+          ● Fronted Development: <br> <small> mobile-friendly UI, responsive design, clean interface </small> <br>
+          ● Backend + API Development: <br> <small>  databases, websockets, user accounts </small> <br>
+          ● Small Business website: <br> <small> landing page </small> <br>
+          ● Booking systems: <br> <small> online booking </small> <br>
+          
+          
+        </p>
+
+        <a href="#contact" class="chip primary">Contact Me</a>
+      </div>
+
+      <div class="services-card">
+        <img src="https://arnoldsemase.dev/images/bpa.png" alt="Templates Services" />
+        <h4>Business Proccess Automation</h4>
+
+        <p class="lead">
+          ● Automated emails: <br> <small>welcome emails, follow-ups, confirmations, reminders</small>  <br>
+          ● Form proccessing: <br> <small>database/Google sheets</small><br>
+          ● Document proccessing: <br> <small>PDF invoices, reports</small>
+        </p>
+
+        <a href="#contact" class="chip primary">Contact Me</a>
+      </div>
+
+    </div>
+
+  </div>
+</section>
+
+ 
+
+
+
+  
+<!-- CONTACT  -->
+<section id="contact" class="contact-section">  
+  <div class="contact-container">  
+    
+    <h2 id="title" class="section-title">Get In Touch</h2>
+    <p class="contact-sub">Let me create something extraordinary for you.</p>  
+
+    <div class="contact-card">  
+      <form id="contactForm" class="contact-form">
+  <div class="field">
+    <input 
+      type="text" 
+      name="name" 
+      id="name" 
+      required 
+      placeholder=" " 
+      maxlength="30" 
+      autocomplete="name">
+    <label for="name">Name</label>
+  </div>
+
+  <div class="field">
+    <input 
+      type="email" 
+      name="email" 
+      id="email" 
+      required 
+      placeholder=" " 
+      maxlength="50" 
+      autocomplete="email">
+    <label for="email">Email</label>
+  </div>
+
+  <div class="field">
+    <textarea 
+      name="message" 
+      id="message" 
+      rows="5" 
+      required 
+      placeholder=" " 
+      maxlength="300" 
+      minlength="10" 
+      spellcheck="true"></textarea>
+    <label for="message">Message</label>
+  </div>
+
+
+<div class="g-recaptcha" data-sitekey="6LcxwSotAAAAAELzuOhHO876F5fVbrGthHrlpE1w"></div>
+
+  <button type="submit" class="contact-btn" id="submitBtn">Send Message</button>
+</form>
+<p id="status" style="color: green; margin-top: 10px;"></p>
+    </div>
+
+  </div>  
+</section>
+
+
+<button class="fixed-contact-btn" id="contactBtn" title="Contact me" type="button">
+  <i class="fa-solid fa-envelope"></i>
+</button>
+
+
+  <!-- Modal -->
+  <div id="contactModal" class="modal">
+    <div class="modal-content">
+      <span class="close-btn">&times;</span>
+      <h2 id="title" class="section-title">Project 1 - Live Contact Form</h2>
+      <form id="contactForm">
+  <div class="input-group">
+    <label for="name">Full Name</label>
+    <input 
+      type="text" 
+      id="name" 
+      placeholder="Arnold Semase" 
+      required 
+      maxlength="30" 
+      autocomplete="name">
+  </div>
+
+  <div class="input-group">
+    <label for="email">Email Address</label>
+    <input 
+      type="email" 
+      id="email" 
+      placeholder="arnoldsemase@gmail.com" 
+      required 
+      maxlength="50" 
+      autocomplete="email">
+  </div>
+
+  <div class="input-group">
+    <label for="message">Message</label>
+    <textarea 
+      id="message" 
+      rows="4" 
+      placeholder="Hello, how are you today?" 
+      required 
+      maxlength="300" 
+      minlength="10" 
+      spellcheck="true"></textarea>
+  </div>
+
+  <button type="submit" id="submitBtn">Send Message</button>
+</form>
+  <p id="status" style="color: green; margin-top: 10px;"></p>
+    </div>
+  </div>
+
+
+<!-- Footer -->
+<footer class="footer">
+  <div class="container">
+
+    <div class="logo" aria-hidden="true">
+      <div style="display:flex; justify-content:center; gap:1rem;align-items:center">
+        <img src="https://arnoldsemase.dev/images/arnoldsemase.jpg" 
+             alt="Arnold Semase logo" 
+             width="80" height="80" 
+             style="border-radius:10%;object-fit:cover;background:#222; border: 0.01rem solid var(--accent);" />
+      </div>
+    </div>
+
+    <p class="footer-desc">Building Smart Solutions That Simplify Business.</p>
+
+    <div class="footer-social">
+      <div class="socials">
+        
+        <a href="https://linkedin.com/in/arnoldsemase"><i class="fa-brands fa-linkedin"></i></a>
+     
+      </div>
+    </div>
+    
+    
+    
+
+    <div class="footer-bottom">
+      <p>© 2026 Arnold Semase. All Rights Reserved.</p>
+      <div class="footer-links">
+        <a href="#hero">Home</a> •
+        <a href="#about">About</a> •
+        <a href="#tools">Tools</a> •
+        <a href="#projects">Projects</a> •
+        <a href="#services">Services</a> •
+        <a href="#contact">Contact</a>
+      </div>
+    </div>
+
+  </div>
+</footer>
+  </main>
+
+  <script src="js/script.js"></script>
+
+</body>
+</html>
