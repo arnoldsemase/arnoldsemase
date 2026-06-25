@@ -1626,66 +1626,45 @@ document.querySelectorAll('nav.primary a[data-nav]').forEach(link => {
     
     
     
-    
-    
-    
-    
-    const modal = document.getElementById('contactModal');
-const openBtn = document.getElementById('openModal');
-const closeBtn = document.querySelector('.close-btn');
-
-
-// Open modal
-openBtn.addEventListener('click', () => {
-  modal.style.display = 'flex';
-});
-
-// Close modal
-closeBtn.addEventListener('click', () => {
-  modal.style.display = 'none';
-});
-
-// Close modal when clicking outside
-window.addEventListener('click', (e) => {
-  if (e.target === modal) modal.style.display = 'none';
-});
-
-
-
+    // ------------------------- //
+// Fixed Contact Button Scroll Logic
+// ------------------------- //
 const contactBtn = document.getElementById("contactBtn");
 const aboutSection = document.getElementById("about");
 const contactSection = document.getElementById("contact");
-const contactModal = document.querySelector(".modal"); // make sure this matches your modal
-
-function isModalOpen() {
-  // Checks if modal has computed display not equal to "none"
-  return window.getComputedStyle(modal).display !== "none";
-}
 
 function toggleContactBtn() {
-  const aboutTop = aboutSection.getBoundingClientRect().top;
-  const contactTop = contactSection.getBoundingClientRect().top;
-  const windowHeight = window.innerHeight;
+    // If any element is missing from the HTML, stop to prevent errors
+    if (!contactBtn || !aboutSection || !contactSection) return;
 
-  if (!isModalOpen() && aboutTop < windowHeight * 0.8 && contactTop > windowHeight * 0.5) {
-    contactBtn.classList.add("show");
-  } else {
-    contactBtn.classList.remove("show");
-  }
+    const aboutTop = aboutSection.getBoundingClientRect().top;
+    const contactTop = contactSection.getBoundingClientRect().top;
+    const windowHeight = window.innerHeight;
+
+    // Button shows up after scrolling past 'About' and hides once reaching 'Contact'
+    if (aboutTop < windowHeight * 0.8 && contactTop > windowHeight * 0.5) {
+        contactBtn.classList.add("show");
+    } else {
+        contactBtn.classList.remove("show");
+    }
 }
 
-// Scroll listener
+// Event Listeners
 window.addEventListener("scroll", toggleContactBtn);
-
-// Also check on resize in case layout changes
 window.addEventListener("resize", toggleContactBtn);
 
-// Check every time modal opens/closes
-const observer = new MutationObserver(toggleContactBtn);
-observer.observe(modal, { attributes: true, attributeFilter: ["style", "class"] });
-
-// Initial check
+// Initial check on page load
 toggleContactBtn();
+
+    
+    
+    
+    
+
+
+
+
+
 
 
 
