@@ -1,0 +1,68 @@
+# Git Ignore Configuration for Arnold Semase Portfolio
+
+# Dependencies
+node_modules/
+package-lock.json
+yarn.lock
+
+# IDE and Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+*.sublime-project
+*.sublime-workspace
+
+# Build artifacts and logs
+dist/
+build/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Environment variables
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# OS specific files
+Thumbs.db
+.AppleDouble
+.LSOverride
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
+
+# Testing
+coverage/
+.nyc_output/
+
+# CDN cache
+.cache-busting/
+
+# Static file cache
+.static-cache/
+
+# Local development
+localhost/
+local/
+test-files/
+
+# Backup files
+*.bak
+*.backup
+*~
+
+# Compiled files
+*.o
+*.obj
+*.so
+*.lib
+*.dll
