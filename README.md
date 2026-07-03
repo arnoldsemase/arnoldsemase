@@ -79,11 +79,9 @@ Building Smart Solutions That Simplify Business.
 
 <p align="left">
   <a href="https://arnoldsemase.dev#contact">
-    <img src="https://img.shields.io/badge/Secure%20Contact%20Form-ff4c60?style=for-the-badge&logo=telegram&logoColor=white" alt="Contact Form" />
+    <img src="https://img.shields.io/badge/Contact me-ff4c60?style=for-the-badge&logo=telegram&logoColor=white" alt="Contact Form" />
   </a>
-  <a href="https://linkedin.com/in/arnoldsemase">
-    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
-  </a>
+
 </p>
 
 <p align="center"><small>© 2026 Arnold Semase. All Rights Reserved.</small></p>
