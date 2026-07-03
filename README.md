@@ -11,7 +11,7 @@
 
 <p align="center">
   <a href="https://arnoldsemase.dev"><img src="https://img.shields.io/badge/Portfolio-arnoldsemase.dev-FF4C60?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Website" /></a>
-  <a href="https://linkedin.com/in/arnoldsemase"><img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" /></a>
+
 </p>
 
 <p align="center">
@@ -77,7 +77,7 @@
 
 Building Smart Solutions That Simplify Business.
 
-<p align="left">
+<p align="center">
   <a href="https://arnoldsemase.dev#contact">
     <img src="https://img.shields.io/badge/Contact me-ff4c60?style=for-the-badge&logo=telegram&logoColor=white" alt="Contact Form" />
   </a>
