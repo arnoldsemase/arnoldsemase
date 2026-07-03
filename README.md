@@ -75,9 +75,7 @@
 
 ## 📬 Get In Touch
 
-Because GitHub READMEs are completely static environments, interactive fields and reCAPTCHA security scripts cannot run here. 
-
-To drop me a line, use my verified networks below or jump directly to my secure contact form:
+Building Smart Solutions That Simplify Business.
 
 <p align="left">
   <a href="https://arnoldsemase.dev#contact">
