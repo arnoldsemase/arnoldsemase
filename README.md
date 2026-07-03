@@ -59,3 +59,33 @@
   <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
 </p>
 
+
+## 🚀 Featured Project
+
+### 📁 PasteNet (`pastenet.tech`)
+> **A temporary text and code sharing web app.**
+
+* **Tech Stack:** HTML5, CSS3, JavaScript
+* **Core Concept:** Paste text, load a file, or send clipboard content instantly to another device. 
+* **Key Features:** Sessions expire automatically after 5 minutes; features optional browser-side client encryption.
+
+👉 [**Try PasteNet Yourself!**](https://pastenet.tech)
+
+---
+
+## 📬 Get In Touch
+
+Because GitHub READMEs are completely static environments, interactive fields and reCAPTCHA security scripts cannot run here. 
+
+To drop me a line, use my verified networks below or jump directly to my secure contact form:
+
+<p align="left">
+  <a href="https://arnoldsemase.dev#contact">
+    <img src="https://img.shields.io/badge/Secure%20Contact%20Form-ff4c60?style=for-the-badge&logo=telegram&logoColor=white" alt="Contact Form" />
+  </a>
+  <a href="https://linkedin.com/in/arnoldsemase">
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn" />
+  </a>
+</p>
+
+<p align="center"><small>© 2026 Arnold Semase. All Rights Reserved.</small></p>
