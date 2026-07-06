@@ -10,7 +10,13 @@
 </p>
 
 <p align="center">
-  <a href="https://arnoldsemase.dev"><img src="https://img.shields.io/badge/Portfolio-arnoldsemase.dev-FF4C60?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Website" /></a>
+  <a href="https://arnoldsemase.dev"><img src="https://img.shields.io/badge/Portfolio-arnoldsemase.dev-FF4C60?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Website" />
+  
+  
+  <img src="https://custom-icon-badges.demolab.com/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin-white&logoColor=fff" alt="LinkedIn" />
+  
+  </a>
+
 
 </p>
 
@@ -69,6 +75,9 @@
 <img src="https://img.shields.io/badge/Next.js-black?style=for-the-badge&logo=next.js&logoColor=white" alt="Next.js" />
 
 <img src="https://img.shields.io/badge/React-%2320232a?style=for-the-badge&logo=react&logoColor=%2361DAFB" alt="React" />
+
+
+<img src="https://img.shields.io/badge/Tailwind%20CSS-%2338B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind CSS" />
 </p>
 
 
