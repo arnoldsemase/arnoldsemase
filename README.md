@@ -11,14 +11,26 @@
 
 <p align="center">
   <a href="https://arnoldsemase.dev"><img src="https://img.shields.io/badge/Portfolio-arnoldsemase.dev-FF4C60?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Website" />
-  
-  
-  <img src="https://custom-icon-badges.demolab.com/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin-white&logoColor=fff" alt="LinkedIn" />
-  
   </a>
-
-
 </p>
+
+
+
+
+
+
+
+
+<p align="center">
+  <a href="https://linkedin.com/in/arnoldsemase"><img src="https://custom-icon-badges.demolab.com/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin-white&logoColor=fff" alt="LinkedIn" /> 
+  </a>
+</p>
+
+
+
+
+
+
 
 <p align="center">
   <img src="https://img.shields.io/badge/Focus-Clean%20Logic%20%26%20Reliability-white?style=flat-square&labelColor=FF4C60" alt="Focus" />
