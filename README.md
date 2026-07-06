@@ -40,7 +40,7 @@
 
 <p align="center"><strong>Full-Stack Developer | Python & JavaScript | Web Apps, Backend Systems & Automation</strong></p>
 
-<br />
+<br><br>
 
 ## 👤 Executive Summary
 
@@ -58,7 +58,7 @@
 </table>
 
 ---
-
+<br><br>
 ## 🛠️ Tech Stack & Tooling
 
 <h3 align="left">Languages & Core Runtimes</h3>
@@ -69,7 +69,7 @@
   <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5" />
   <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3" />
 </p>
-
+<br>
 <h3 align="left">Frameworks, Automation & Environment</h3>
 <p align="left">
   <img src="https://img.shields.io/badge/Google%20Apps%20Script-4285F4?style=for-the-badge&logo=google-apps-script&logoColor=white" alt="GAS" />
@@ -92,7 +92,7 @@
 <img src="https://img.shields.io/badge/Tailwind%20CSS-%2338B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind CSS" />
 </p>
 
-
+<br><br>
 ## 🚀 Featured Project
 
 ### 📁 PasteNet (`pastenet.tech`)
@@ -105,7 +105,7 @@
 👉 [**Try PasteNet Yourself!**](https://pastenet.tech)
 
 ---
-
+<br><br>
 ## 📬 Get In Touch
 
 Building Smart Solutions That Simplify Business.
