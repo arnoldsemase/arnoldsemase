@@ -109,7 +109,7 @@
 ## 📬 Get In Touch
 
 Building Smart Solutions That Simplify Business.
-
+<br><br><br>
 <p align="center">
   <a href="https://arnoldsemase.dev#contact">
     <img src="https://img.shields.io/badge/Contact me-ff4c60?style=for-the-badge&logo=telegram&logoColor=white" alt="Contact Form" />
