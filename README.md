@@ -57,6 +57,15 @@
   <img src="https://img.shields.io/badge/Google%20Apps%20Script-4285F4?style=for-the-badge&logo=google-apps-script&logoColor=white" alt="GAS" />
   <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
   <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+
+  <img src="https://img.shields.io/badge/Angular-%23DD0031?style=for-the-badge&logo=angular&logoColor=white" alt="Angular" />
+
+
+<img src="https://img.shields.io/badge/Express.js-%23404d59?style=for-the-badge&logo=express&logoColor=%2361DAFB" alt="Express.js" />
+
+<img src="https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=fff" alt="jQuery" />
+
+
 </p>
 
 
