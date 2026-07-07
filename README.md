@@ -47,7 +47,7 @@
 <table>
   <tr>
     <td width="60%" valign="top">
-      <p>I'm a Full-Stack Developer who enjoys building web applications, backend systems, and automation tools using Python and JavaScript. I love working across the entire stack, typically leveraging frameworks like React and Node.js to bring ideas to life.</p>
+      <p>I am a software developer specializing in developing frontend and backend systems, web applications, APIs, and automation solutions, focusing on clean logic, reliability, and data-driven design. I hold a Diploma in Information Technology (with distinction) from Rosebank International.</p>
     </td>
     <td width="40%" valign="top" align="center">
       <img src="https://arnoldsemase.pages.dev/images/RBBM30_177.jpg" width="140" style="border-radius: 20px; border: 3px solid #FF4C60; box-shadow: 0 8px 24px rgba(255,76,96,0.2);" alt="Arnold Semase" />
