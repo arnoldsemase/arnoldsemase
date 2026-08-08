@@ -163,73 +163,11 @@ const arnold = {
 
 
 
-<br/>
 
-<img src="https://img.shields.io/badge/-%3Cprojects%2F%3E-FF4C60?style=flat-square&labelColor=0D0D12" />
 
 <br/>
 
-<img src="https://placehold.co/900x420/0D0D12/FF4C60?text=Project+One&font=jetbrains+mono" width="100%" style="border-radius:10px;border:1px solid #FF4C60;" />
 
-<h3 align="center">🚀 Project One</h3>
-<p align="center">One-line pitch of what it does and the problem it solves for users.</p>
-<p align="center">
-<img src="https://img.shields.io/badge/React-1A1A23?style=flat-square&logo=react&logoColor=FF4C60" />
-<img src="https://img.shields.io/badge/Node.js-1A1A23?style=flat-square&logo=nodedotjs&logoColor=FF4C60" />
-<img src="https://img.shields.io/badge/PostgreSQL-1A1A23?style=flat-square&logo=postgresql&logoColor=FF4C60" />
-</p>
-<p align="center">
-<a href="#"><img src="https://img.shields.io/badge/LIVE%20DEMO-FF4C60?style=flat-square&logoColor=0D0D12" /></a>
-<a href="#"><img src="https://img.shields.io/badge/SOURCE-1A1A23?style=flat-square&logo=github&logoColor=FF4C60" /></a>
-</p>
-
-<br/>
-
-<img src="https://placehold.co/900x420/0D0D12/FF4C60?text=Project+Two&font=jetbrains+mono" width="100%" style="border-radius:10px;border:1px solid #FF4C60;" />
-
-<h3 align="center">⚙️ Project Two</h3>
-<p align="center">One-line pitch of what it does and the problem it solves for users.</p>
-<p align="center">
-<img src="https://img.shields.io/badge/Python-1A1A23?style=flat-square&logo=python&logoColor=FF4C60" />
-<img src="https://img.shields.io/badge/Django-1A1A23?style=flat-square&logo=django&logoColor=FF4C60" />
-<img src="https://img.shields.io/badge/Redis-1A1A23?style=flat-square&logo=redis&logoColor=FF4C60" />
-</p>
-<p align="center">
-<a href="#"><img src="https://img.shields.io/badge/LIVE%20DEMO-FF4C60?style=flat-square&logoColor=0D0D12" /></a>
-<a href="#"><img src="https://img.shields.io/badge/SOURCE-1A1A23?style=flat-square&logo=github&logoColor=FF4C60" /></a>
-</p>
-
-<br/>
-
-<img src="https://placehold.co/900x420/0D0D12/FF4C60?text=Project+Three&font=jetbrains+mono" width="100%" style="border-radius:10px;border:1px solid #FF4C60;" />
-
-<h3 align="center">📊 Project Three</h3>
-<p align="center">One-line pitch of what it does and the problem it solves for users.</p>
-<p align="center">
-<img src="https://img.shields.io/badge/TypeScript-1A1A23?style=flat-square&logo=typescript&logoColor=FF4C60" />
-<img src="https://img.shields.io/badge/Next.js-1A1A23?style=flat-square&logo=nextdotjs&logoColor=FF4C60" />
-<img src="https://img.shields.io/badge/MongoDB-1A1A23?style=flat-square&logo=mongodb&logoColor=FF4C60" />
-</p>
-<p align="center">
-<a href="#"><img src="https://img.shields.io/badge/LIVE%20DEMO-FF4C60?style=flat-square&logoColor=0D0D12" /></a>
-<a href="#"><img src="https://img.shields.io/badge/SOURCE-1A1A23?style=flat-square&logo=github&logoColor=FF4C60" /></a>
-</p>
-
-<br/>
-
-<img src="https://placehold.co/900x420/0D0D12/FF4C60?text=Project+Four&font=jetbrains+mono" width="100%" style="border-radius:10px;border:1px solid #FF4C60;" />
-
-<h3 align="center">🔧 Project Four</h3>
-<p align="center">One-line pitch of what it does and the problem it solves for users.</p>
-<p align="center">
-<img src="https://img.shields.io/badge/JavaScript-1A1A23?style=flat-square&logo=javascript&logoColor=FF4C60" />
-<img src="https://img.shields.io/badge/Express-1A1A23?style=flat-square&logo=express&logoColor=FF4C60" />
-<img src="https://img.shields.io/badge/Docker-1A1A23?style=flat-square&logo=docker&logoColor=FF4C60" />
-</p>
-<p align="center">
-<a href="#"><img src="https://img.shields.io/badge/LIVE%20DEMO-FF4C60?style=flat-square&logoColor=0D0D12" /></a>
-<a href="#"><img src="https://img.shields.io/badge/SOURCE-1A1A23?style=flat-square&logo=github&logoColor=FF4C60" /></a>
-</p>
 
 
 <br/>
