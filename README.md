@@ -1,123 +1,299 @@
+<div align="center">
+
+<img src="https://img.shields.io/badge/-%3Carnoldsemase%3E-0D0D12?style=flat-square&labelColor=0D0D12&color=FF4C60" alt="opening tag" /> <br>
+
+<table cellspacing="0" cellpadding="4" bgcolor="#FF4C60" style="border-radius:50%;"><tr><td bgcolor="#0D0D12" style="border-radius:50%;"><img src="https://arnoldsemase.pages.dev/images/arnoldsemase.jpg" width="88" style="border-radius:50%;display:block;" alt="Arnold Semase" /></td></tr></table>
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D0D12,100:FF4C60&height=190&section=header&text=ARNOLD%20SEMASE&fontSize=52&fontColor=F5F1EA&fontAlignY=38&desc=Full-Stack%20Developer%20%E2%80%94%20Crafting%20Modern%20Web%20Systems&descAlignY=58&descSize=17&animation=fadeIn" width="100%" alt="header" />
+
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=20&duration=2800&pause=900&color=FF4C60&center=true&vCenter=true&width=620&lines=const+developer+%3D+%27Arnold+Semase%27%3B;role%3A+Full-Stack+Engineer+%E2%80%94+Python+%2B+JavaScript;building+smart+solutions+that+simplify+business." alt="typing" />
+
+<br/>
+
+<a href="https://arnoldsemase.dev"><img src="https://img.shields.io/badge/PORTFOLIO-FF4C60?style=for-the-badge&logo=googlechrome&logoColor=0D0D12" /></a>
+<a href="https://linkedin.com/in/arnoldsemase"><img src="https://custom-icon-badges.demolab.com/badge/LinkedIn-1A1A23?style=for-the-badge&logo=linkedin-white&logoColor=fff" /></a>
+</div>
+
+<br/>
+
+<img src="https://img.shields.io/badge/-%3Cabout%2F%3E-FF4C60?style=flat-square&labelColor=0D0D12" />
+
+```js
+const arnold = {
+  role: "Full-Stack Developer",
+  stack: ["Python", "JavaScript", "TypeScript"],
+  focus: "building systems that simplify business",
+  currently: "shipping something new every week",
+  funFact: "debugs better at 2am than 2pm",
+};
+```
+<br>
+<table width="100%" cellspacing="0" cellpadding="0">
+<tr>
+<td width="33%" align="center">
+
+<img src="https://api.iconify.design/mdi:web.svg?color=%23FF4C60" width="42" height="42" alt="web" />
+<br/><br/>
+<img src="https://img.shields.io/badge/WEB%20APPS-FF4C60?style=flat-square&labelColor=FF4C60&color=FF4C60" height="22"/>
+<br/>
+<sub>React-powered interfaces</sub>
+
+</td>
+<td width="33%" align="center">
+
+<img src="https://api.iconify.design/mdi:cog.svg?color=%23FF4C60" width="42" height="42" alt="backend" />
+<br/><br/>
+<img src="https://img.shields.io/badge/BACKEND%20SYSTEMS-FF4C60?style=flat-square&labelColor=FF4C60&color=FF4C60" height="22"/>
+<br/>
+<sub>Node.js-driven services</sub>
+
+</td>
+<td width="33%" align="center">
+
+<img src="https://api.iconify.design/mdi:robot.svg?color=%23FF4C60" width="42" height="42" alt="automation" />
+<br/><br/>
+<img src="https://img.shields.io/badge/AUTOMATION-FF4C60?style=flat-square&labelColor=FF4C60&color=FF4C60" height="22"/>
+<br/>
+<sub>Scripts that save hours</sub>
+
+</td>
+</tr>
+</table>
+<br>
 <p align="center">
-  <img src="https://arnoldsemase.pages.dev/images/arnoldsemase.jpg" alt="Arnold Semase Logo" width="100" style="border-radius: 12px; border: 2px solid #ff4c60;" />
+  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=22&pause=1000&color=FF4C60&center=true&vCenter=true&width=700&lines=Full-Stack+Developer;AI+%26+Automation+Engineer;Building+Scalable+Software;Always+Learning+Something+New" alt="Typing SVG" />
 </p>
 
+<img src="https://img.shields.io/badge/-%3Cfacts%2F%3E-FF4C60?style=flat-square&labelColor=0D0D12" />
 
-
-
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Space+Grotesk&weight=700&size=32&duration=3500&pause=1000&color=FF4C60&center=true&vCenter=true&width=500&lines=Hello%2C+I'm+Arnold+Semase;Crafting+Modern+Web+Systems;Full-Stack+Developer" alt="Typing SVG" />
-</p>
-
-<p align="center">
-  <a href="https://arnoldsemase.dev"><img src="https://img.shields.io/badge/Portfolio-arnoldsemase.dev-FF4C60?style=for-the-badge&logo=googlechrome&logoColor=white" alt="Website" />
-  </a>
-</p>
-
-
-
-
-
-
-
-
-<p align="center">
-  <a href="https://linkedin.com/in/arnoldsemase"><img src="https://custom-icon-badges.demolab.com/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin-white&logoColor=fff" alt="LinkedIn" /> 
-  </a>
-</p>
-
-
-
-
-
-
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Focus-Clean%20Logic%20%26%20Reliability-white?style=flat-square&labelColor=FF4C60" alt="Focus" />
-</p>
-
-
-
-<p align="center"><strong>Full-Stack Developer | Python & JavaScript | Web Apps, Backend Systems & Automation</strong></p>
-
-<br><br>
-
-## 👤 Executive Summary
-
-<table>
-  <tr>
-    <td width="60%" valign="top">
-      <p>I am a software developer specializing in developing frontend and backend systems, web applications, APIs, and automation solutions, focusing on clean logic, reliability, and data-driven design. I hold a Diploma in Information Technology (with distinction) from Rosebank International.</p>
-      <img src="https://arnoldsemase.pages.dev/images/arnoldsemasedipcert.jpg" width="140" style="border-radius: 20px; border: 3px solid #FF4C60; box-shadow: 0 8px 24px rgba(255,76,96,0.2);" alt="Arnold Semase" />
-    </td>
-    <td width="40%" valign="top" align="center">
-      <img src="https://arnoldsemase.pages.dev/images/RBBM30_177.jpg" width="140" style="border-radius: 20px; border: 3px solid #FF4C60; box-shadow: 0 8px 24px rgba(255,76,96,0.2);" alt="Arnold Semase" />
-      <br /><br />
-      <code>Let's code.</code>
-    </td>
-  </tr>
+<table width="100%" cellspacing="6" cellpadding="10">
+<tr>
+<td width="30%" align="center" bgcolor="#0D0D12">
+<img src="https://img.shields.io/badge/🎯_FOCUS-FF4C60?style=flat-square&labelColor=FF4C60&color=FF4C60" height="26"/>
+</td>
+<td width="70%" bgcolor="#1A1A23">&nbsp;&nbsp;Full-Stack Development</td>
+</tr>
+<tr>
+<td width="30%" align="center" bgcolor="#0D0D12">
+<img src="https://img.shields.io/badge/🛠_STACK-FF4C60?style=flat-square&labelColor=FF4C60&color=FF4C60" height="26"/>
+</td>
+<td width="70%" bgcolor="#1A1A23">&nbsp;&nbsp;Python · JavaScript · React · Node.js</td>
+</tr>
+<tr>
+<td width="30%" align="center" bgcolor="#0D0D12">
+<img src="https://img.shields.io/badge/🚀_CURRENTLY-FF4C60?style=flat-square&labelColor=FF4C60&color=FF4C60" height="26"/>
+</td>
+<td width="70%" bgcolor="#1A1A23">&nbsp;&nbsp;Building something new</td>
+</tr>
+<tr>
+<td width="30%" align="center" bgcolor="#0D0D12">
+<img src="https://img.shields.io/badge/📍_BASED_IN-FF4C60?style=flat-square&labelColor=FF4C60&color=FF4C60" height="26"/>
+</td>
+<td width="70%" bgcolor="#1A1A23">&nbsp;&nbsp;Your city, country</td>
+</tr>
 </table>
 
----
-<br><br>
-## 🛠️ Tech Stack & Tooling
-
-<h3 align="left">Languages & Core Runtimes</h3>
-<p align="left">
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
-  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript" />
-  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node.js" />
-  <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5" />
-  <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3" />
-</p>
-<br>
-<h3 align="left">Frameworks, Automation & Environment</h3>
-<p align="left">
-  <img src="https://img.shields.io/badge/Google%20Apps%20Script-4285F4?style=for-the-badge&logo=google-apps-script&logoColor=white" alt="GAS" />
-  <img src="https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white" alt="Git" />
-  <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
-
-  <img src="https://img.shields.io/badge/Angular-%23DD0031?style=for-the-badge&logo=angular&logoColor=white" alt="Angular" />
-
-
-<img src="https://img.shields.io/badge/Express.js-%23404d59?style=for-the-badge&logo=express&logoColor=%2361DAFB" alt="Express.js" />
-
-<img src="https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=fff" alt="jQuery" />
-
-
-<img src="https://img.shields.io/badge/Next.js-black?style=for-the-badge&logo=next.js&logoColor=white" alt="Next.js" />
-
-<img src="https://img.shields.io/badge/React-%2320232a?style=for-the-badge&logo=react&logoColor=%2361DAFB" alt="React" />
-
-
-<img src="https://img.shields.io/badge/Tailwind%20CSS-%2338B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind CSS" />
-
-<img src="https://custom-icon-badges.demolab.com/badge/Microsoft%20Azure-0089D6?style=for-the-badge&logo=msazure&logoColor=white" alt="Microsoft Azure" />
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=FF4C60&height=90&section=footer"/>
 </p>
 
-<br><br>
-## 🚀 Featured Project
+- 🔭 Currently building tools that turn messy workflows into clean systems
+- 🌱 Deep-diving into distributed systems & scalable backend architecture
 
-### 📁 PasteNet (`pastenet.tech`)
-> **A temporary text and code sharing web app.**
+<br/>
 
-* **Tech Stack:** HTML5, CSS3, JavaScript
-* **Core Concept:** Paste text, load a file, or send clipboard content instantly to another device. 
-* **Key Features:** Sessions expire automatically after 5 minutes; features optional browser-side client encryption.
 
-👉 [**Try PasteNet Yourself!**](https://pastenet.tech)
 
----
-<br><br>
-## 📬 Get In Touch
+<img src="https://img.shields.io/badge/-%3Cstack%2F%3E-FF4C60?style=flat-square&labelColor=0D0D12" />
 
+<div align="center">
+
+<img src="https://img.shields.io/badge/FRONTEND-0D0D12?style=flat-square&color=FF4C60" width="140"/>
+<br/><br/>
+<img src="https://img.shields.io/badge/HTML5-1A1A23?style=for-the-badge&logo=html5&logoColor=FF4C60" />
+<img src="https://img.shields.io/badge/CSS3-1A1A23?style=for-the-badge&logo=css3&logoColor=FF4C60" />
+<img src="https://img.shields.io/badge/JavaScript-1A1A23?style=for-the-badge&logo=javascript&logoColor=FF4C60" />
+<img src="https://img.shields.io/badge/TypeScript-1A1A23?style=for-the-badge&logo=typescript&logoColor=FF4C60" />
+<img src="https://img.shields.io/badge/React-1A1A23?style=for-the-badge&logo=react&logoColor=FF4C60" />
+<img src="https://img.shields.io/badge/TailwindCSS-1A1A23?style=for-the-badge&logo=tailwindcss&logoColor=FF4C60" />
+
+<br/><br/>
+
+<img src="https://img.shields.io/badge/BACKEND-0D0D12?style=flat-square&color=FF4C60" width="140"/>
+<br/><br/>
+<img src="https://img.shields.io/badge/Python-1A1A23?style=for-the-badge&logo=python&logoColor=FF4C60" />
+<img src="https://img.shields.io/badge/Node.js-1A1A23?style=for-the-badge&logo=nodedotjs&logoColor=FF4C60" />
+<img src="https://img.shields.io/badge/Express-1A1A23?style=for-the-badge&logo=express&logoColor=FF4C60" />
+
+<br/><br/>
+
+<img src="https://img.shields.io/badge/CLOUD%20PLATFORM-0D0D12?style=flat-square&color=FF4C60" width="140"/>
+<br/><br/>
+<img src="https://custom-icon-badges.demolab.com/badge/Microsoft%20Azure-1A1A23?style=for-the-badge&logo=msazure&logoColor=FF4C60" alt="Microsoft Azure" />
+
+<br/><br/>
+
+<img src="https://img.shields.io/badge/DATABASE-0D0D12?style=flat-square&color=FF4C60" width="140"/>
+<br/><br/>
+<img src="https://img.shields.io/badge/MySQL-1A1A23?style=for-the-badge&logo=mysql&logoColor=FF4C60" />
+<img src="https://img.shields.io/badge/MongoDB-1A1A23?style=for-the-badge&logo=mongodb&logoColor=FF4C60" />
+<img src="https://img.shields.io/badge/Redis-1A1A23?style=for-the-badge&logo=redis&logoColor=FF4C60" />
+
+<br/><br/>
+
+<img src="https://img.shields.io/badge/VERSION%20CONTROL-0D0D12?style=flat-square&color=FF4C60" width="140"/>
+<br/><br/>
+<img src="https://img.shields.io/badge/Git-1A1A23?style=for-the-badge&logo=git&logoColor=FF4C60" />
+<img src="https://img.shields.io/badge/GitHub-1A1A23?style=for-the-badge&logo=github&logoColor=FF4C60" />
+
+<br/><br/>
+
+<img src="https://img.shields.io/badge/CI%2FCD-0D0D12?style=flat-square&color=FF4C60" width="140"/>
+<br/><br/>
+<img src="https://img.shields.io/badge/GitHub%20Actions-1A1A23?style=for-the-badge&logo=githubactions&logoColor=FF4C60" />
+
+<br/><br/>
+
+<img src="https://img.shields.io/badge/PACKAGE%20MANAGERS-0D0D12?style=flat-square&color=FF4C60" width="140"/>
+<br/><br/>
+<img src="https://img.shields.io/badge/npm-1A1A23?style=for-the-badge&logo=npm&logoColor=FF4C60" />
+
+</div>
+
+
+
+
+<br/>
+
+<img src="https://img.shields.io/badge/-%3Cprojects%2F%3E-FF4C60?style=flat-square&labelColor=0D0D12" />
+
+<br/>
+
+<img src="https://placehold.co/900x420/0D0D12/FF4C60?text=Project+One&font=jetbrains+mono" width="100%" style="border-radius:10px;border:1px solid #FF4C60;" />
+
+<h3 align="center">🚀 Project One</h3>
+<p align="center">One-line pitch of what it does and the problem it solves for users.</p>
+<p align="center">
+<img src="https://img.shields.io/badge/React-1A1A23?style=flat-square&logo=react&logoColor=FF4C60" />
+<img src="https://img.shields.io/badge/Node.js-1A1A23?style=flat-square&logo=nodedotjs&logoColor=FF4C60" />
+<img src="https://img.shields.io/badge/PostgreSQL-1A1A23?style=flat-square&logo=postgresql&logoColor=FF4C60" />
+</p>
+<p align="center">
+<a href="#"><img src="https://img.shields.io/badge/LIVE%20DEMO-FF4C60?style=flat-square&logoColor=0D0D12" /></a>
+<a href="#"><img src="https://img.shields.io/badge/SOURCE-1A1A23?style=flat-square&logo=github&logoColor=FF4C60" /></a>
+</p>
+
+<br/>
+
+<img src="https://placehold.co/900x420/0D0D12/FF4C60?text=Project+Two&font=jetbrains+mono" width="100%" style="border-radius:10px;border:1px solid #FF4C60;" />
+
+<h3 align="center">⚙️ Project Two</h3>
+<p align="center">One-line pitch of what it does and the problem it solves for users.</p>
+<p align="center">
+<img src="https://img.shields.io/badge/Python-1A1A23?style=flat-square&logo=python&logoColor=FF4C60" />
+<img src="https://img.shields.io/badge/Django-1A1A23?style=flat-square&logo=django&logoColor=FF4C60" />
+<img src="https://img.shields.io/badge/Redis-1A1A23?style=flat-square&logo=redis&logoColor=FF4C60" />
+</p>
+<p align="center">
+<a href="#"><img src="https://img.shields.io/badge/LIVE%20DEMO-FF4C60?style=flat-square&logoColor=0D0D12" /></a>
+<a href="#"><img src="https://img.shields.io/badge/SOURCE-1A1A23?style=flat-square&logo=github&logoColor=FF4C60" /></a>
+</p>
+
+<br/>
+
+<img src="https://placehold.co/900x420/0D0D12/FF4C60?text=Project+Three&font=jetbrains+mono" width="100%" style="border-radius:10px;border:1px solid #FF4C60;" />
+
+<h3 align="center">📊 Project Three</h3>
+<p align="center">One-line pitch of what it does and the problem it solves for users.</p>
+<p align="center">
+<img src="https://img.shields.io/badge/TypeScript-1A1A23?style=flat-square&logo=typescript&logoColor=FF4C60" />
+<img src="https://img.shields.io/badge/Next.js-1A1A23?style=flat-square&logo=nextdotjs&logoColor=FF4C60" />
+<img src="https://img.shields.io/badge/MongoDB-1A1A23?style=flat-square&logo=mongodb&logoColor=FF4C60" />
+</p>
+<p align="center">
+<a href="#"><img src="https://img.shields.io/badge/LIVE%20DEMO-FF4C60?style=flat-square&logoColor=0D0D12" /></a>
+<a href="#"><img src="https://img.shields.io/badge/SOURCE-1A1A23?style=flat-square&logo=github&logoColor=FF4C60" /></a>
+</p>
+
+<br/>
+
+<img src="https://placehold.co/900x420/0D0D12/FF4C60?text=Project+Four&font=jetbrains+mono" width="100%" style="border-radius:10px;border:1px solid #FF4C60;" />
+
+<h3 align="center">🔧 Project Four</h3>
+<p align="center">One-line pitch of what it does and the problem it solves for users.</p>
+<p align="center">
+<img src="https://img.shields.io/badge/JavaScript-1A1A23?style=flat-square&logo=javascript&logoColor=FF4C60" />
+<img src="https://img.shields.io/badge/Express-1A1A23?style=flat-square&logo=express&logoColor=FF4C60" />
+<img src="https://img.shields.io/badge/Docker-1A1A23?style=flat-square&logo=docker&logoColor=FF4C60" />
+</p>
+<p align="center">
+<a href="#"><img src="https://img.shields.io/badge/LIVE%20DEMO-FF4C60?style=flat-square&logoColor=0D0D12" /></a>
+<a href="#"><img src="https://img.shields.io/badge/SOURCE-1A1A23?style=flat-square&logo=github&logoColor=FF4C60" /></a>
+</p>
+
+
+<br/>
+
+<img src="https://img.shields.io/badge/-%3Cstats%2F%3E-FF4C60?style=flat-square&labelColor=0D0D12" />
+
+
+
+<br/>
+
+<img src="https://img.shields.io/badge/-%3Cactivity%2F%3E-FF4C60?style=flat-square&labelColor=0D0D12" />
+
+<div align="center">
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=arnoldsemase&theme=react-dark&bg_color=0D0D12&color=FF4C60&line=FF4C60&point=F5F1EA&hide_border=true" width="100%" />
+
+</div>
+
+<br/>
+
+<img src="https://img.shields.io/badge/-%3Ctrophies%2F%3E-FF4C60?style=flat-square&labelColor=0D0D12" />
+
+
+
+<br/>
+
+<img src="https://img.shields.io/badge/-%3Cconnect%2F%3E-FF4C60?style=flat-square&labelColor=0D0D12" />
+
+<div align="center">
+<a href="https://arnoldsemase.dev"><img src="https://img.shields.io/badge/PORTFOLIO-FF4C60?style=for-the-badge&logo=googlechrome&logoColor=0D0D12" /></a>
+<a href="https://linkedin.com/in/arnoldsemase"><img src="https://custom-icon-badges.demolab.com/badge/LinkedIn-1A1A23?style=for-the-badge&logo=linkedin-white&logoColor=fff" /></a>
+
+</div>
+
+<br/>
+
+<img src="https://img.shields.io/badge/-%3Csupport%2F%3E-FF4C60?style=flat-square&labelColor=0D0D12" />
+
+<div align="center">
+
+<a href="https://buymeacoffee.com/arnoldsemase"><img src="https://img.shields.io/badge/BUY%20ME%20A%20COFFEE-FF4C60?style=for-the-badge&logo=buymeacoffee&logoColor=0D0D12" /></a>
+<a href="https://github.com/sponsors/arnoldsemase"><img src="https://img.shields.io/badge/SPONSOR-1A1A23?style=for-the-badge&logo=githubsponsors&logoColor=FF4C60" /></a>
+
+</div>
+
+<br/>
+
+<div align="center">
 Building Smart Solutions That Simplify Business.
 <br><br><br>
-<p align="center">
+<p>
   <a href="https://arnoldsemase.dev#contact">
     <img src="https://img.shields.io/badge/Contact me-ff4c60?style=for-the-badge&logo=telegram&logoColor=white" alt="Contact Form" />
   </a>
 
 </p>
 
-<p align="center"><small>© 2026 Arnold Semase. All Rights Reserved.</small></p>
+
+
+  
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D0D12,100:FF4C60&height=100&section=footer" width="100%" />
+
+<img src="https://img.shields.io/badge/-%3C%2Farnoldsemase%3E-0D0D12?style=flat-square&labelColor=0D0D12&color=FF4C60" alt="closing tag" />
+
+<br><br>
+<p><small>© 2026 Arnold Semase. All Rights Reserved.</small></p>
+</div>
