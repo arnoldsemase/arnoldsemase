@@ -108,16 +108,11 @@ const arnold = {
 
 <div align="center">
 
-<img src="https://img.shields.io/badge/FRONTEND-0D0D12?style=flat-square&color=FF4C60" width="140"/>
+<img src="https://img.shields.io/badge/Languages-0D0D12?style=flat-square&color=FF4C60" width="140"/>
 <br/><br/>
-<img src="https://img.shields.io/badge/HTML5-1A1A23?style=for-the-badge&logo=html5&logoColor=FF4C60" />
-<img src="https://img.shields.io/badge/CSS3-1A1A23?style=for-the-badge&logo=css3&logoColor=FF4C60" />
+
 <img src="https://img.shields.io/badge/JavaScript-1A1A23?style=for-the-badge&logo=javascript&logoColor=FF4C60" />
 <img src="https://img.shields.io/badge/TypeScript-1A1A23?style=for-the-badge&logo=typescript&logoColor=FF4C60" />
-<img src="https://img.shields.io/badge/React-1A1A23?style=for-the-badge&logo=react&logoColor=FF4C60" />
-<img src="https://img.shields.io/badge/TailwindCSS-1A1A23?style=for-the-badge&logo=tailwindcss&logoColor=FF4C60" />
-
-<br/><br/>
 
 <img src="https://img.shields.io/badge/BACKEND-0D0D12?style=flat-square&color=FF4C60" width="140"/>
 <br/><br/>
