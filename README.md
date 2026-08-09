@@ -77,7 +77,7 @@ const arnold = {
 <td width="30%" align="center" bgcolor="#0D0D12">
 <img src="https://img.shields.io/badge/🛠_STACK-FF4C60?style=flat-square&labelColor=FF4C60&color=FF4C60" height="26"/>
 </td>
-<td width="70%" bgcolor="#1A1A23">&nbsp;&nbsp;Python · JavaScript · React · Node.js</td>
+<td width="70%" bgcolor="#1A1A23">&nbsp;&nbsp;C# · JavaScript · Node.js</td>
 </tr>
 <tr>
 <td width="30%" align="center" bgcolor="#0D0D12">
@@ -100,24 +100,7 @@ const arnold = {
 - 🔭 Currently building tools that turn messy workflows into clean systems
 - 🌱 Deep-diving into distributed systems & scalable backend architecture
 
-<br/>
-
-
-
-
-<br/>
-
-
-
-
-<br/>
-
-<img src="https://img.shields.io/badge/-%3Cstats%2F%3E-FF4C60?style=flat-square&labelColor=0D0D12" />
-
-
-
-<br/>
-
+<br><br>
 <img src="https://img.shields.io/badge/-%3Cactivity%2F%3E-FF4C60?style=flat-square&labelColor=0D0D12" />
 
 <div align="center">
@@ -126,15 +109,10 @@ const arnold = {
 
 </div>
 
-<br/>
-
-<img src="https://img.shields.io/badge/-%3Ctrophies%2F%3E-FF4C60?style=flat-square&labelColor=0D0D12" />
-
-
-
-<br/>
-
+<br><br>
 <img src="https://img.shields.io/badge/-%3Cconnect%2F%3E-FF4C60?style=flat-square&labelColor=0D0D12" />
+
+
 
 <div align="center">
 <a href="https://arnoldsemase.dev"><img src="https://img.shields.io/badge/PORTFOLIO-FF4C60?style=for-the-badge&logo=googlechrome&logoColor=0D0D12" /></a>
@@ -142,8 +120,7 @@ const arnold = {
 
 </div>
 
-<br/>
-
+<br><br>
 <img src="https://img.shields.io/badge/-%3Csupport%2F%3E-FF4C60?style=flat-square&labelColor=0D0D12" />
 
 <div align="center">
@@ -169,6 +146,8 @@ Building Smart Solutions That Simplify Business.
 
   
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D0D12,100:FF4C60&height=100&section=footer" width="100%" />
+
+<br><br>
 
 <img src="https://img.shields.io/badge/-%3C%2Farnoldsemase%3E-0D0D12?style=flat-square&labelColor=0D0D12&color=FF4C60" alt="closing tag" />
 
