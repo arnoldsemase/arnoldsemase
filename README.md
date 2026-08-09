@@ -104,61 +104,6 @@ const arnold = {
 
 
 
-<img src="https://img.shields.io/badge/-%3Cstack%2F%3E-FF4C60?style=flat-square&labelColor=0D0D12" />
-
-<div align="center">
-
-<img src="https://img.shields.io/badge/Languages-0D0D12?style=flat-square&color=FF4C60" width="140"/>
-<br/><br/>
-
-<img src="https://img.shields.io/badge/JavaScript-1A1A23?style=for-the-badge&logo=javascript&logoColor=FF4C60" />
-<img src="https://img.shields.io/badge/TypeScript-1A1A23?style=for-the-badge&logo=typescript&logoColor=FF4C60" />
-
-<img src="https://img.shields.io/badge/BACKEND-0D0D12?style=flat-square&color=FF4C60" width="140"/>
-<br/><br/>
-<img src="https://img.shields.io/badge/Python-1A1A23?style=for-the-badge&logo=python&logoColor=FF4C60" />
-<img src="https://img.shields.io/badge/Node.js-1A1A23?style=for-the-badge&logo=nodedotjs&logoColor=FF4C60" />
-<img src="https://img.shields.io/badge/Express-1A1A23?style=for-the-badge&logo=express&logoColor=FF4C60" />
-
-<br/><br/>
-
-<img src="https://img.shields.io/badge/CLOUD%20PLATFORM-0D0D12?style=flat-square&color=FF4C60" width="140"/>
-<br/><br/>
-<img src="https://custom-icon-badges.demolab.com/badge/Microsoft%20Azure-1A1A23?style=for-the-badge&logo=msazure&logoColor=FF4C60" alt="Microsoft Azure" />
-
-<br/><br/>
-
-<img src="https://img.shields.io/badge/DATABASE-0D0D12?style=flat-square&color=FF4C60" width="140"/>
-<br/><br/>
-<img src="https://img.shields.io/badge/MySQL-1A1A23?style=for-the-badge&logo=mysql&logoColor=FF4C60" />
-<img src="https://img.shields.io/badge/MongoDB-1A1A23?style=for-the-badge&logo=mongodb&logoColor=FF4C60" />
-<img src="https://img.shields.io/badge/Redis-1A1A23?style=for-the-badge&logo=redis&logoColor=FF4C60" />
-
-<br/><br/>
-
-<img src="https://img.shields.io/badge/VERSION%20CONTROL-0D0D12?style=flat-square&color=FF4C60" width="140"/>
-<br/><br/>
-<img src="https://img.shields.io/badge/Git-1A1A23?style=for-the-badge&logo=git&logoColor=FF4C60" />
-<img src="https://img.shields.io/badge/GitHub-1A1A23?style=for-the-badge&logo=github&logoColor=FF4C60" />
-
-<br/><br/>
-
-<img src="https://img.shields.io/badge/CI%2FCD-0D0D12?style=flat-square&color=FF4C60" width="140"/>
-<br/><br/>
-<img src="https://img.shields.io/badge/GitHub%20Actions-1A1A23?style=for-the-badge&logo=githubactions&logoColor=FF4C60" />
-
-<br/><br/>
-
-<img src="https://img.shields.io/badge/PACKAGE%20MANAGERS-0D0D12?style=flat-square&color=FF4C60" width="140"/>
-<br/><br/>
-<img src="https://img.shields.io/badge/npm-1A1A23?style=for-the-badge&logo=npm&logoColor=FF4C60" />
-
-</div>
-
-
-
-
-
 
 <br/>
 
