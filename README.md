@@ -89,7 +89,7 @@ const arnold = {
 <td width="30%" align="center" bgcolor="#0D0D12">
 <img src="https://img.shields.io/badge/📍_BASED_IN-FF4C60?style=flat-square&labelColor=FF4C60&color=FF4C60" height="26"/>
 </td>
-<td width="70%" bgcolor="#1A1A23">&nbsp;&nbsp;Your city, country</td>
+<td width="70%" bgcolor="#1A1A23">&nbsp;&nbsp;Johannesburg, South Africa</td>
 </tr>
 </table>
 
@@ -101,15 +101,7 @@ const arnold = {
 - 🌱 Deep-diving into distributed systems & scalable backend architecture
 
 <br><br>
-<img src="https://img.shields.io/badge/-%3Cactivity%2F%3E-FF4C60?style=flat-square&labelColor=0D0D12" />
 
-<div align="center">
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=arnoldsemase&theme=react-dark&bg_color=0D0D12&color=FF4C60&line=FF4C60&point=F5F1EA&hide_border=true" width="100%" />
-
-</div>
-
-<br><br>
 <img src="https://img.shields.io/badge/-%3Cconnect%2F%3E-FF4C60?style=flat-square&labelColor=0D0D12" />
 
 
