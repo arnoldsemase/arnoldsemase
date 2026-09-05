@@ -22,9 +22,9 @@
 const arnold = {
   role: "Full-Stack Developer",
   stack: ["C#", "JavaScript", "Node.js"],
-  focus: "building systems that simplify business",
-  currently: "shipping something new every week",
-  funFact: "debugs better at 2am than 2pm",
+  focus: "building systems that simplify business.",
+  currently: "shipping something new every week.",
+  funFact: "debugs better at 2am than 2pm.",
 };
 ```
 <br>
