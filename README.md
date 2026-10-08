@@ -19,7 +19,7 @@
 <img src="https://img.shields.io/badge/-%3Cabout%2F%3E-FF4C60?style=flat-square&labelColor=0D0D12" />
 
 ```js
-const arnold = {
+const arnoldsemase = {
   role: "Full-Stack Developer",
   stack: ["C#", "JavaScript", "Node.js"],
   focus: "building systems that simplify business.",
