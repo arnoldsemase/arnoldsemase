@@ -32,7 +32,7 @@ const arnoldsemase = {
 <tr>
 <td width="33%" align="center">
 
-<img src="https://api.iconify.design/mdi:web.svg?color=%23FF4C60" width="42" height="42" alt="web" />
+<img src="assets/icons/web.svg" width="42" height="42" alt="web" />
 <br/><br/>
 <img src="https://img.shields.io/badge/WEB%20APPS-FF4C60?style=flat-square&labelColor=FF4C60&color=FF4C60" height="22"/>
 <br/>
@@ -41,7 +41,7 @@ const arnoldsemase = {
 </td>
 <td width="33%" align="center">
 
-<img src="https://api.iconify.design/mdi:cog.svg?color=%23FF4C60" width="42" height="42" alt="backend" />
+<img src="assets/icons/backend.svg" width="42" height="42" alt="backend" />
 <br/><br/>
 <img src="https://img.shields.io/badge/BACKEND%20SYSTEMS-FF4C60?style=flat-square&labelColor=FF4C60&color=FF4C60" height="22"/>
 <br/>
@@ -50,7 +50,7 @@ const arnoldsemase = {
 </td>
 <td width="33%" align="center">
 
-<img src="https://api.iconify.design/mdi:robot.svg?color=%23FF4C60" width="42" height="42" alt="automation" />
+<img src="assets/icons/automation.svg" width="42" height="42" alt="automation" />
 <br/><br/>
 <img src="https://img.shields.io/badge/AUTOMATION-FF4C60?style=flat-square&labelColor=FF4C60&color=FF4C60" height="22"/>
 <br/>
