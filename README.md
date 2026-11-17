@@ -21,7 +21,7 @@
 ```js
 const arnoldsemase = {
   role: "Full-Stack Developer",
-  stack: ["JavaScript", "Reat Native", "Node.js", ],
+  stack: ["JavaScript", "Reat Native", "Node.js"],
   focus: "building systems that simplify business.",
   currently: "shipping something new every week.",
   funFact: "debugs better at 2am than 2pm.",
