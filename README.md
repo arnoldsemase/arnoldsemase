@@ -21,7 +21,7 @@
 ```js
 const arnoldsemase = {
   role: "Full-Stack Developer",
-  stack: ["C#", "JavaScript", "Node.js"],
+  stack: ["JavaScript", "Reat Native", "Node.js", ],
   focus: "building systems that simplify business.",
   currently: "shipping something new every week.",
   funFact: "debugs better at 2am than 2pm.",
@@ -77,7 +77,7 @@ const arnoldsemase = {
 <td width="30%" align="center" bgcolor="#0D0D12">
 <img src="https://img.shields.io/badge/🛠_STACK-FF4C60?style=flat-square&labelColor=FF4C60&color=FF4C60" height="26"/>
 </td>
-<td width="70%" bgcolor="#1A1A23">&nbsp;&nbsp;C# · JavaScript · Node.js</td>
+<td width="70%" bgcolor="#1A1A23">&nbsp;&nbsp;JavaScript · React Native · Node.js</td>
 </tr>
 <tr>
 <td width="30%" align="center" bgcolor="#0D0D12">
